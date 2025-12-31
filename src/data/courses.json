@@ -1,0 +1,2991 @@
+[
+  {
+    "id": "test-payment",
+    "title": "Payment Test Course - Rs 1 Only",
+    "slug": "payment-test-course",
+    "category": "Test",
+    "level": "Beginner",
+    "rating": 5.0,
+    "reviews": 1,
+    "students": 1,
+    "price": 1,
+    "originalPrice": 100,
+    "image": "course-web-bootcamp.jpg",
+    "instructor": "Suresh Gangavarapu",
+    "instructorId": "instructor-1",
+    "duration": "1 hour",
+    "lectures": 1,
+    "description": "Test course for payment gateway integration. Only Rs 1 to test Cashfree payment flow.",
+    "highlights": [
+      "Test Cashfree payment",
+      "Verify payment flow",
+      "Check course access"
+    ],
+    "curriculum": [
+      {
+        "section": "Test Section",
+        "lectures": 1,
+        "duration": "1h"
+      }
+    ]
+  },
+  {
+    "id": "web-dev-bootcamp",
+    "title": "Complete Web Development Bootcamp",
+    "slug": "web-development-bootcamp",
+    "category": "Web Development",
+    "level": "Beginner",
+    "rating": 4.8,
+    "reviews": 12453,
+    "students": 45678,
+    "price": 42125,
+    "originalPrice": 63188,
+    "image": "course-web-bootcamp.jpg",
+    "instructor": "Suresh Gangavarapu",
+    "instructorId": "instructor-1",
+    "duration": "42 hours",
+    "lectures": 156,
+    "description": "Master modern web development with HTML, CSS, JavaScript, React, Node.js, and MongoDB. Build real-world projects and launch your career.",
+    "highlights": [
+      "Build 15+ real-world projects",
+      "Master HTML5, CSS3, JavaScript ES6+",
+      "Learn React, Node.js, Express, MongoDB",
+      "Responsive design & mobile-first development",
+      "Deploy to production with confidence"
+    ],
+    "curriculum": [
+      {
+        "section": "Introduction to Web Development",
+        "lectures": 12,
+        "duration": "2h 30m"
+      },
+      {
+        "section": "HTML & CSS Fundamentals",
+        "lectures": 24,
+        "duration": "5h 15m"
+      },
+      {
+        "section": "JavaScript Mastery",
+        "lectures": 32,
+        "duration": "8h 45m"
+      },
+      {
+        "section": "React Development",
+        "lectures": 28,
+        "duration": "7h 20m"
+      },
+      {
+        "section": "Backend with Node.js",
+        "lectures": 26,
+        "duration": "6h 30m"
+      },
+      {
+        "section": "Database & MongoDB",
+        "lectures": 18,
+        "duration": "4h 45m"
+      },
+      {
+        "section": "Deployment & Production",
+        "lectures": 16,
+        "duration": "3h 15m"
+      }
+    ]
+  },
+  {
+    "id": "data-science-ai",
+    "title": "Data Science & AI Masterclass",
+    "slug": "data-science-ai-masterclass",
+    "category": "Data Science",
+    "level": "Intermediate",
+    "rating": 4.9,
+    "reviews": 8932,
+    "students": 32145,
+    "price": 57375,
+    "originalPrice": 65000,
+    "image": "course-data-science-masterclass.jpg",
+    "instructor": "Gutlapalli Ramarao",
+    "instructorId": "instructor-2",
+    "duration": "56 hours",
+    "lectures": 198,
+    "description": "Become a data scientist with Python, machine learning, deep learning, and AI. Work on real datasets and build predictive models.",
+    "highlights": [
+      "Python for data science",
+      "Machine learning algorithms",
+      "Deep learning with TensorFlow",
+      "Natural Language Processing",
+      "Computer Vision projects"
+    ],
+    "curriculum": [
+      {
+        "section": "Python Fundamentals",
+        "lectures": 18,
+        "duration": "4h 20m"
+      },
+      {
+        "section": "Data Analysis with Pandas",
+        "lectures": 24,
+        "duration": "6h 15m"
+      },
+      {
+        "section": "Data Visualization",
+        "lectures": 20,
+        "duration": "5h 30m"
+      },
+      {
+        "section": "Machine Learning",
+        "lectures": 36,
+        "duration": "10h 45m"
+      },
+      {
+        "section": "Deep Learning",
+        "lectures": 32,
+        "duration": "9h 20m"
+      },
+      {
+        "section": "NLP & Computer Vision",
+        "lectures": 28,
+        "duration": "8h 15m"
+      },
+      {
+        "section": "Real-World Projects",
+        "lectures": 24,
+        "duration": "7h 30m"
+      }
+    ]
+  },
+  {
+    "id": "digital-marketing",
+    "title": "Digital Marketing Mastery 2024",
+    "slug": "digital-marketing-mastery",
+    "category": "Marketing",
+    "level": "Beginner",
+    "rating": 4.7,
+    "reviews": 15678,
+    "students": 58942,
+    "price": 34500,
+    "originalPrice": 51750,
+    "image": "course-digital-marketing.jpg",
+    "instructor": "Suresh Gangavarapu",
+    "instructorId": "instructor-1",
+    "duration": "38 hours",
+    "lectures": 142,
+    "description": "Master SEO, social media marketing, email marketing, content creation, and paid advertising to grow any business online.",
+    "highlights": [
+      "SEO & Google Analytics",
+      "Social media marketing strategies",
+      "Facebook & Instagram ads",
+      "Email marketing automation",
+      "Content marketing mastery"
+    ],
+    "curriculum": [
+      {
+        "section": "Digital Marketing Foundations",
+        "lectures": 16,
+        "duration": "3h 45m"
+      },
+      {
+        "section": "SEO Mastery",
+        "lectures": 26,
+        "duration": "6h 20m"
+      },
+      {
+        "section": "Social Media Marketing",
+        "lectures": 28,
+        "duration": "7h 15m"
+      },
+      {
+        "section": "Paid Advertising",
+        "lectures": 24,
+        "duration": "6h 30m"
+      },
+      {
+        "section": "Email Marketing",
+        "lectures": 20,
+        "duration": "5h 10m"
+      },
+      {
+        "section": "Content Strategy",
+        "lectures": 18,
+        "duration": "4h 45m"
+      },
+      {
+        "section": "Analytics & Optimization",
+        "lectures": 10,
+        "duration": "2h 30m"
+      }
+    ]
+  },
+  {
+    "id": "ui-ux-design",
+    "title": "UI/UX Design Complete Course",
+    "slug": "ui-ux-design-complete",
+    "category": "Design",
+    "level": "Beginner",
+    "rating": 4.8,
+    "reviews": 9876,
+    "students": 38421,
+    "price": 49750,
+    "originalPrice": 65000,
+    "image": "course-ui-ux-design.jpg",
+    "instructor": "Gutlapalli Ramarao",
+    "instructorId": "instructor-2",
+    "duration": "44 hours",
+    "lectures": 168,
+    "description": "Learn user interface and user experience design with Figma. Create stunning mobile apps and websites that users love.",
+    "highlights": [
+      "Master Figma from scratch",
+      "User research & personas",
+      "Wireframing & prototyping",
+      "Design systems & components",
+      "Portfolio-ready projects"
+    ],
+    "curriculum": [
+      {
+        "section": "UX Design Fundamentals",
+        "lectures": 22,
+        "duration": "5h 30m"
+      },
+      {
+        "section": "User Research",
+        "lectures": 18,
+        "duration": "4h 45m"
+      },
+      {
+        "section": "Wireframing",
+        "lectures": 24,
+        "duration": "6h 15m"
+      },
+      {
+        "section": "UI Design with Figma",
+        "lectures": 32,
+        "duration": "8h 20m"
+      },
+      {
+        "section": "Prototyping & Testing",
+        "lectures": 26,
+        "duration": "6h 45m"
+      },
+      {
+        "section": "Design Systems",
+        "lectures": 20,
+        "duration": "5h 10m"
+      },
+      {
+        "section": "Portfolio Projects",
+        "lectures": 26,
+        "duration": "7h 30m"
+      }
+    ]
+  },
+  {
+    "id": "course-001",
+    "title": "React & Next.js Build Projects",
+    "slug": "react-nextjs-projects",
+    "category": "Web Development",
+    "level": "Intermediate",
+    "rating": 4.8,
+    "reviews": 3245,
+    "students": 10234,
+    "price": 26875,
+    "originalPrice": 40313,
+    "image": "course-react-nextjs.jpg",
+    "instructor": "Suresh Gangavarapu",
+    "instructorId": "instructor-1",
+    "duration": "28 hours",
+    "lectures": 72,
+    "description": "Build production-ready React and Next.js applications with routing, SSR, and API integration.",
+    "highlights": [
+      "Next.js routing & API routes",
+      "Server-side rendering",
+      "Authentication & deployment"
+    ],
+    "curriculum": [
+      {
+        "section": "Projects",
+        "lectures": 12,
+        "duration": "6h"
+      },
+      {
+        "section": "SSR & SSG",
+        "lectures": 8,
+        "duration": "4h"
+      }
+    ]
+  },
+  {
+    "id": "course-002",
+    "title": "Advanced Node.js & Express APIs",
+    "slug": "advanced-nodejs-express",
+    "category": "Web Development",
+    "level": "Advanced",
+    "rating": 4.7,
+    "reviews": 2100,
+    "students": 8740,
+    "price": 34500,
+    "originalPrice": 51750,
+    "image": "course-nodejs-express.jpg",
+    "instructor": "Karthik Thanikonda",
+    "instructorId": "instructor-3",
+    "duration": "32 hours",
+    "lectures": 88,
+    "description": "Design and build scalable RESTful APIs with Node.js, Express, and best practices for production.",
+    "highlights": [
+      "API design",
+      "Authentication",
+      "Performance tuning"
+    ],
+    "curriculum": [
+      {
+        "section": "Basics",
+        "lectures": 10,
+        "duration": "3h"
+      },
+      {
+        "section": "Scaling",
+        "lectures": 10,
+        "duration": "5h"
+      }
+    ]
+  },
+  {
+    "id": "course-003",
+    "title": "Python for Data Analysis with Pandas",
+    "slug": "python-data-analysis-pandas",
+    "category": "Data Science",
+    "level": "Beginner",
+    "rating": 4.9,
+    "reviews": 5400,
+    "students": 15432,
+    "price": 19250,
+    "originalPrice": 28875,
+    "image": "course-pandas-analysis.jpg",
+    "instructor": "Gutlapalli Ramarao",
+    "instructorId": "instructor-2",
+    "duration": "24 hours",
+    "lectures": 48,
+    "description": "Learn data manipulation and analysis using Pandas and NumPy with real-world datasets.",
+    "highlights": [
+      "Pandas basics",
+      "Data cleaning",
+      "Time series analysis"
+    ],
+    "curriculum": [
+      {
+        "section": "Pandas intro",
+        "lectures": 8,
+        "duration": "3h"
+      },
+      {
+        "section": "Analysis",
+        "lectures": 12,
+        "duration": "5h"
+      }
+    ]
+  },
+  {
+    "id": "course-004",
+    "title": "Full Stack with MERN",
+    "slug": "fullstack-mern",
+    "category": "Web Development",
+    "level": "Intermediate",
+    "rating": 4.7,
+    "reviews": 4100,
+    "students": 13840,
+    "price": 42125,
+    "originalPrice": 63188,
+    "image": "course-mern-stack.jpg",
+    "instructor": "Kavitha Nair",
+    "instructorId": "instructor-13",
+    "duration": "45 hours",
+    "lectures": 110,
+    "description": "Build end-to-end applications using MongoDB, Express, React and Node.js with deployment workflows.",
+    "highlights": [
+      "MERN stack",
+      "Authentication",
+      "Deployment"
+    ],
+    "curriculum": [
+      {
+        "section": "Frontend",
+        "lectures": 30,
+        "duration": "12h"
+      },
+      {
+        "section": "Backend",
+        "lectures": 24,
+        "duration": "10h"
+      }
+    ]
+  },
+  {
+    "id": "course-006",
+    "title": "Kotlin Android App Development",
+    "slug": "kotlin-android-development",
+    "category": "Mobile",
+    "level": "Intermediate",
+    "rating": 4.8,
+    "reviews": 1500,
+    "students": 6900,
+    "price": 31450,
+    "originalPrice": 47175,
+    "image": "course-kotlin-android.jpg",
+    "instructor": "Srinivas Reddy",
+    "instructorId": "instructor-5",
+    "duration": "36 hours",
+    "lectures": 90,
+    "description": "Build native Android apps using Kotlin with modern architecture and Jetpack components.",
+    "highlights": [
+      "Kotlin basics",
+      "Jetpack",
+      "App architecture"
+    ],
+    "curriculum": [
+      {
+        "section": "Kotlin",
+        "lectures": 14,
+        "duration": "6h"
+      },
+      {
+        "section": "UI",
+        "lectures": 12,
+        "duration": "5h"
+      }
+    ]
+  },
+  {
+    "id": "course-007",
+    "title": "Flutter Cross-Platform Apps",
+    "slug": "flutter-cross-platform",
+    "category": "Mobile",
+    "level": "Beginner",
+    "rating": 4.7,
+    "reviews": 1780,
+    "students": 8300,
+    "price": 26875,
+    "originalPrice": 40313,
+    "image": "course-flutter-mobile.jpg",
+    "instructor": "Srinivas Reddy",
+    "instructorId": "instructor-5",
+    "duration": "30 hours",
+    "lectures": 72,
+    "description": "Create fast cross-platform mobile apps with Flutter and Dart, covering layouts, state and deployment.",
+    "highlights": [
+      "Flutter widgets",
+      "State management",
+      "Publishing apps"
+    ],
+    "curriculum": [
+      {
+        "section": "Dart & Flutter",
+        "lectures": 20,
+        "duration": "8h"
+      },
+      {
+        "section": "State",
+        "lectures": 10,
+        "duration": "4h"
+      }
+    ]
+  },
+  {
+    "id": "course-008",
+    "title": "SEO & Content Strategy for Indian Businesses",
+    "slug": "seo-content-india",
+    "category": "Marketing",
+    "level": "Beginner",
+    "rating": 4.6,
+    "reviews": 3320,
+    "students": 11200,
+    "price": 11625,
+    "originalPrice": 17438,
+    "image": "course-seo-content.jpg",
+    "instructor": "Suresh Gangavarapu",
+    "instructorId": "instructor-1",
+    "duration": "18 hours",
+    "lectures": 40,
+    "description": "Learn SEO and content strategies tuned for Indian audiences and small businesses.",
+    "highlights": [
+      "Local SEO",
+      "Content planning",
+      "Analytics"
+    ],
+    "curriculum": [
+      {
+        "section": "SEO basics",
+        "lectures": 10,
+        "duration": "4h"
+      },
+      {
+        "section": "Content",
+        "lectures": 8,
+        "duration": "3h"
+      }
+    ]
+  },
+  {
+    "id": "course-009",
+    "title": "UX Design for Mobile Apps",
+    "slug": "ux-mobile-apps",
+    "category": "Design",
+    "level": "Intermediate",
+    "rating": 4.8,
+    "reviews": 2100,
+    "students": 7200,
+    "price": 34500,
+    "originalPrice": 51750,
+    "image": "course-ux-mobile.jpg",
+    "instructor": "Divya Krishnan",
+    "instructorId": "instructor-6",
+    "duration": "28 hours",
+    "lectures": 64,
+    "description": "Design user-friendly mobile interfaces with research-driven patterns and prototyping.",
+    "highlights": [
+      "Mobile patterns",
+      "Prototyping",
+      "Testing"
+    ],
+    "curriculum": [
+      {
+        "section": "Research",
+        "lectures": 10,
+        "duration": "4h"
+      },
+      {
+        "section": "Prototyping",
+        "lectures": 10,
+        "duration": "4h"
+      }
+    ]
+  },
+  {
+    "id": "course-010",
+    "title": "Data Visualization with D3 & Tableau",
+    "slug": "data-visualization-d3-tableau",
+    "category": "Data Science",
+    "level": "Intermediate",
+    "rating": 4.7,
+    "reviews": 1750,
+    "students": 6100,
+    "price": 22300,
+    "originalPrice": 33450,
+    "image": "course-d3-tableau.jpg",
+    "instructor": "Gutlapalli Ramarao",
+    "instructorId": "instructor-2",
+    "duration": "22 hours",
+    "lectures": 56,
+    "description": "Create compelling data stories using D3 for web and Tableau for dashboards.",
+    "highlights": [
+      "D3 charts",
+      "Tableau dashboards",
+      "Storytelling"
+    ],
+    "curriculum": [
+      {
+        "section": "D3",
+        "lectures": 12,
+        "duration": "6h"
+      },
+      {
+        "section": "Tableau",
+        "lectures": 10,
+        "duration": "4h"
+      }
+    ]
+  },
+  {
+    "id": "course-011",
+    "title": "Intro to Machine Learning with Scikit-Learn",
+    "slug": "ml-scikit-learn",
+    "category": "Data Science",
+    "level": "Beginner",
+    "rating": 4.8,
+    "reviews": 4020,
+    "students": 15230,
+    "price": 28400,
+    "originalPrice": 42600,
+    "image": "course-scikit-learn.jpg",
+    "instructor": "Venkatesh Iyer",
+    "instructorId": "instructor-9",
+    "duration": "34 hours",
+    "lectures": 88,
+    "description": "Understand supervised and unsupervised algorithms and build models using Scikit-Learn.",
+    "highlights": [
+      "Regression",
+      "Classification",
+      "Pipelines"
+    ],
+    "curriculum": [
+      {
+        "section": "Basics",
+        "lectures": 14,
+        "duration": "6h"
+      },
+      {
+        "section": "Models",
+        "lectures": 16,
+        "duration": "8h"
+      }
+    ]
+  },
+  {
+    "id": "course-012",
+    "title": "Deep Learning with TensorFlow & Keras",
+    "slug": "deep-learning-tensorflow-keras",
+    "category": "Data Science",
+    "level": "Advanced",
+    "rating": 4.9,
+    "reviews": 2980,
+    "students": 11200,
+    "price": 65000,
+    "originalPrice": 66000,
+    "image": "course-tensorflow-keras.jpg",
+    "instructor": "Venkatesh Iyer",
+    "instructorId": "instructor-9",
+    "duration": "50 hours",
+    "lectures": 140,
+    "description": "Build deep learning models for computer vision and NLP using TensorFlow and Keras.",
+    "highlights": [
+      "CNNs",
+      "RNNs",
+      "Transfer learning"
+    ],
+    "curriculum": [
+      {
+        "section": "Foundations",
+        "lectures": 20,
+        "duration": "8h"
+      },
+      {
+        "section": "Projects",
+        "lectures": 24,
+        "duration": "12h"
+      }
+    ]
+  },
+  {
+    "id": "course-013",
+    "title": "Product Management Essentials",
+    "slug": "product-management-essentials",
+    "category": "Product",
+    "level": "Beginner",
+    "rating": 4.6,
+    "reviews": 1200,
+    "students": 5400,
+    "price": 19250,
+    "originalPrice": 28875,
+    "image": "course-product-management.jpg",
+    "instructor": "Divya Krishnan",
+    "instructorId": "instructor-6",
+    "duration": "20 hours",
+    "lectures": 48,
+    "description": "Learn product discovery, roadmap, and metrics to ship impactful products.",
+    "highlights": [
+      "Roadmapping",
+      "User research",
+      "Prioritization"
+    ],
+    "curriculum": [
+      {
+        "section": "Discovery",
+        "lectures": 8,
+        "duration": "3h"
+      },
+      {
+        "section": "Metrics",
+        "lectures": 6,
+        "duration": "2h"
+      }
+    ]
+  },
+  {
+    "id": "course-015",
+    "title": "Cybersecurity Fundamentals",
+    "slug": "cybersecurity-fundamentals",
+    "category": "Security",
+    "level": "Beginner",
+    "rating": 4.6,
+    "reviews": 980,
+    "students": 4300,
+    "price": 11625,
+    "originalPrice": 17438,
+    "image": "course-cybersecurity-fundamentals.jpg",
+    "instructor": "Rajesh Naidu",
+    "instructorId": "instructor-14",
+    "duration": "16 hours",
+    "lectures": 36,
+    "description": "Learn secure coding practices, threat modelling, and basics of defensive security.",
+    "highlights": [
+      "Threat modeling",
+      "Secure coding",
+      "OWASP"
+    ],
+    "curriculum": [
+      {
+        "section": "Basics",
+        "lectures": 8,
+        "duration": "3h"
+      },
+      {
+        "section": "Practices",
+        "lectures": 8,
+        "duration": "3h"
+      }
+    ]
+  },
+  {
+    "id": "course-016",
+    "title": "SQL & Database Design",
+    "slug": "sql-database-design",
+    "category": "Data Science",
+    "level": "Beginner",
+    "rating": 4.7,
+    "reviews": 2710,
+    "students": 10250,
+    "price": 16200,
+    "originalPrice": 24300,
+    "image": "course-sql-database.jpg",
+    "instructor": "Ananya Patel",
+    "instructorId": "instructor-10",
+    "duration": "20 hours",
+    "lectures": 44,
+    "description": "Master SQL queries, schema design, and optimization techniques for relational databases.",
+    "highlights": [
+      "Queries",
+      "Normalization",
+      "Indexing"
+    ],
+    "curriculum": [
+      {
+        "section": "SQL",
+        "lectures": 12,
+        "duration": "4h"
+      },
+      {
+        "section": "Design",
+        "lectures": 8,
+        "duration": "3h"
+      }
+    ]
+  },
+  {
+    "id": "course-017",
+    "title": "Introduction to Blockchain Development",
+    "slug": "blockchain-development-intro",
+    "category": "Technology",
+    "level": "Beginner",
+    "rating": 4.5,
+    "reviews": 760,
+    "students": 3900,
+    "price": 19250,
+    "originalPrice": 28875,
+    "image": "course-blockchain-intro.jpg",
+    "instructor": "Ramesh Kumar",
+    "instructorId": "instructor-12",
+    "duration": "18 hours",
+    "lectures": 40,
+    "description": "Understand blockchain concepts and build simple smart contracts and DApps.",
+    "highlights": [
+      "Smart contracts",
+      "Ethereum basics",
+      "DApp architecture"
+    ],
+    "curriculum": [
+      {
+        "section": "Blockchain basics",
+        "lectures": 8,
+        "duration": "3h"
+      },
+      {
+        "section": "Smart contracts",
+        "lectures": 10,
+        "duration": "4h"
+      }
+    ]
+  },
+  {
+    "id": "course-018",
+    "title": "Excel to Power BI for Analysts",
+    "slug": "excel-powerbi-analysts",
+    "category": "Data Science",
+    "level": "Beginner",
+    "rating": 4.6,
+    "reviews": 2100,
+    "students": 8200,
+    "price": 8575,
+    "originalPrice": 12863,
+    "image": "course-excel-powerbi.jpg",
+    "instructor": "Ananya Patel",
+    "instructorId": "instructor-10",
+    "duration": "14 hours",
+    "lectures": 36,
+    "description": "Transition from Excel to Power BI and create actionable dashboards for business use.",
+    "highlights": [
+      "Power BI",
+      "Dashboards",
+      "Data modelling"
+    ],
+    "curriculum": [
+      {
+        "section": "Excel tips",
+        "lectures": 6,
+        "duration": "2h"
+      },
+      {
+        "section": "Power BI",
+        "lectures": 12,
+        "duration": "5h"
+      }
+    ]
+  },
+  {
+    "id": "course-020",
+    "title": "E-commerce Store with Shopify",
+    "slug": "ecommerce-shopify",
+    "category": "Business",
+    "level": "Beginner",
+    "rating": 4.6,
+    "reviews": 1980,
+    "students": 7600,
+    "price": 14675,
+    "originalPrice": 22013,
+    "image": "course-ecommerce-shopify.jpg",
+    "instructor": "Suresh Gangavarapu",
+    "instructorId": "instructor-1",
+    "duration": "16 hours",
+    "lectures": 40,
+    "description": "Launch and optimize an e-commerce store on Shopify with product listings and payment integration.",
+    "highlights": [
+      "Store setup",
+      "Payments",
+      "Marketing"
+    ],
+    "curriculum": [
+      {
+        "section": "Setup",
+        "lectures": 8,
+        "duration": "3h"
+      },
+      {
+        "section": "Optimization",
+        "lectures": 8,
+        "duration": "3h"
+      }
+    ]
+  },
+  {
+    "id": "course-022",
+    "title": "Graphic Design with Figma",
+    "slug": "graphic-design-figma",
+    "category": "Design",
+    "level": "Beginner",
+    "rating": 4.7,
+    "reviews": 2450,
+    "students": 10200,
+    "price": 11625,
+    "originalPrice": 17438,
+    "image": "course-figma-graphics.jpg",
+    "instructor": "Ananya Mehta",
+    "instructorId": "instructor-6",
+    "duration": "20 hours",
+    "lectures": 48,
+    "description": "Design beautiful interfaces and graphics using Figma with practical project-based lessons.",
+    "highlights": [
+      "Figma basics",
+      "Design systems",
+      "Prototyping"
+    ],
+    "curriculum": [
+      {
+        "section": "Basics",
+        "lectures": 10,
+        "duration": "4h"
+      },
+      {
+        "section": "Projects",
+        "lectures": 12,
+        "duration": "5h"
+      }
+    ]
+  },
+  {
+    "id": "course-023",
+    "title": "Animation for the Web with CSS & JS",
+    "slug": "animation-web-css-js",
+    "category": "Design",
+    "level": "Intermediate",
+    "rating": 4.6,
+    "reviews": 1120,
+    "students": 4800,
+    "price": 14675,
+    "originalPrice": 22013,
+    "image": "course-web-animation.jpg",
+    "instructor": "Aditya Sharma",
+    "instructorId": "instructor-7",
+    "duration": "18 hours",
+    "lectures": 44,
+    "description": "Bring interfaces to life with performant CSS and JS animation techniques.",
+    "highlights": [
+      "CSS animations",
+      "GSAP",
+      "Performance"
+    ],
+    "curriculum": [
+      {
+        "section": "CSS",
+        "lectures": 8,
+        "duration": "3h"
+      },
+      {
+        "section": "JS",
+        "lectures": 10,
+        "duration": "4h"
+      }
+    ]
+  },
+
+  {
+    "id": "course-025",
+    "title": "Sales & Growth Hacking for Startups",
+    "slug": "sales-growth-startups",
+    "category": "Business",
+    "level": "Intermediate",
+    "rating": 4.6,
+    "reviews": 1320,
+    "students": 6200,
+    "price": 19250,
+    "originalPrice": 28875,
+    "image": "course-growth-hacking.jpg",
+    "instructor": "Suresh Gangavarapu",
+    "instructorId": "instructor-1",
+    "duration": "22 hours",
+    "lectures": 56,
+    "description": "Practical growth tactics for early-stage startups focused on measurable acquisition and retention.",
+    "highlights": [
+      "Funnel optimization",
+      "A/B testing",
+      "Retention"
+    ],
+    "curriculum": [
+      {
+        "section": "Acquisition",
+        "lectures": 12,
+        "duration": "5h"
+      },
+      {
+        "section": "Retention",
+        "lectures": 10,
+        "duration": "4h"
+      }
+    ]
+  },
+  {
+    "id": "course-026",
+    "title": "GraphQL APIs with Apollo Server",
+    "slug": "graphql-apollo-server",
+    "category": "Web Development",
+    "level": "Intermediate",
+    "rating": 4.7,
+    "reviews": 980,
+    "students": 4700,
+    "price": 22300,
+    "originalPrice": 33450,
+    "image": "course-graphql-apollo.jpg",
+    "instructor": "Karthik Thanikonda",
+    "instructorId": "instructor-3",
+    "duration": "20 hours",
+    "lectures": 48,
+    "description": "Design and implement GraphQL APIs with Apollo, schema design and performance considerations.",
+    "highlights": [
+      "Schema design",
+      "Resolvers",
+      "Caching"
+    ],
+    "curriculum": [
+      {
+        "section": "GraphQL basics",
+        "lectures": 10,
+        "duration": "4h"
+      },
+      {
+        "section": "Apollo",
+        "lectures": 8,
+        "duration": "3h"
+      }
+    ]
+  },
+  {
+    "id": "course-027",
+    "title": "Language Models & Prompt Engineering",
+    "slug": "lm-prompt-engineering",
+    "category": "AI",
+    "level": "Intermediate",
+    "rating": 4.8,
+    "reviews": 2140,
+    "students": 8200,
+    "price": 31450,
+    "originalPrice": 47175,
+    "image": "course-language-models.jpg",
+    "instructor": "Gutlapalli Ramarao",
+    "instructorId": "instructor-2",
+    "duration": "26 hours",
+    "lectures": 64,
+    "description": "Practical guide to using large language models and writing effective prompts for applications.",
+    "highlights": [
+      "Prompts",
+      "Safety",
+      "Applications"
+    ],
+    "curriculum": [
+      {
+        "section": "LM basics",
+        "lectures": 8,
+        "duration": "3h"
+      },
+      {
+        "section": "Prompts",
+        "lectures": 12,
+        "duration": "6h"
+      }
+    ]
+  },
+  {
+    "id": "course-028",
+    "title": "Node.js Performance & Monitoring",
+    "slug": "nodejs-performance-monitoring",
+    "category": "Web Development",
+    "level": "Advanced",
+    "rating": 4.7,
+    "reviews": 640,
+    "students": 3000,
+    "price": 28400,
+    "originalPrice": 42600,
+    "image": "course-nodejs-performance.jpg",
+    "instructor": "Karthik Thanikonda",
+    "instructorId": "instructor-3",
+    "duration": "18 hours",
+    "lectures": 42,
+    "description": "Optimize Node.js applications, profile performance, and set up monitoring and alerts.",
+    "highlights": [
+      "Profiling",
+      "Monitoring",
+      "Tuning"
+    ],
+    "curriculum": [
+      {
+        "section": "Profiling",
+        "lectures": 8,
+        "duration": "3h"
+      },
+      {
+        "section": "Monitoring",
+        "lectures": 8,
+        "duration": "3h"
+      }
+    ]
+  },
+  {
+    "id": "course-029",
+    "title": "Interview Prep: Algorithms & Data Structures",
+    "slug": "interview-algorithms-ds",
+    "category": "Career",
+    "level": "Intermediate",
+    "rating": 4.9,
+    "reviews": 5200,
+    "students": 20200,
+    "price": 34500,
+    "originalPrice": 51750,
+    "image": "course-interview-prep.jpg",
+    "instructor": "Kavitha Nair",
+    "instructorId": "instructor-13",
+    "duration": "60 hours",
+    "lectures": 160,
+    "description": "Prepare for coding interviews with focused DS&A lessons, patterns and timed practice.",
+    "highlights": [
+      "Problem patterns",
+      "Mock interviews",
+      "Time management"
+    ],
+    "curriculum": [
+      {
+        "section": "Arrays & Strings",
+        "lectures": 20,
+        "duration": "8h"
+      },
+      {
+        "section": "Graphs",
+        "lectures": 18,
+        "duration": "8h"
+      }
+    ]
+  },
+  {
+    "id": "course-030",
+    "title": "Marketing Analytics with Google Analytics 4",
+    "slug": "marketing-analytics-ga4",
+    "category": "Marketing",
+    "level": "Beginner",
+    "rating": 4.6,
+    "reviews": 980,
+    "students": 4500,
+    "price": 10100,
+    "originalPrice": 15150,
+    "image": "course-google-analytics.jpg",
+    "instructor": "Suresh Gangavarapu",
+    "instructorId": "instructor-1",
+    "duration": "14 hours",
+    "lectures": 36,
+    "description": "Track, analyze and optimize your marketing funnels with Google Analytics 4.",
+    "highlights": [
+      "GA4 setup",
+      "Events",
+      "Funnels"
+    ],
+    "curriculum": [
+      {
+        "section": "Setup",
+        "lectures": 6,
+        "duration": "2h"
+      },
+      {
+        "section": "Analysis",
+        "lectures": 10,
+        "duration": "4h"
+      }
+    ]
+  },
+  {
+    "id": "course-031",
+    "title": "WordPress Development & Theme Building",
+    "slug": "wordpress-theme-development",
+    "category": "Web Development",
+    "level": "Beginner",
+    "rating": 4.5,
+    "reviews": 640,
+    "students": 2700,
+    "price": 8575,
+    "originalPrice": 12863,
+    "image": "course-wordpress-development.jpg",
+    "instructor": "Kavitha Nair",
+    "instructorId": "instructor-13",
+    "duration": "16 hours",
+    "lectures": 40,
+    "description": "Create custom WordPress themes and plugins, and manage content effectively.",
+    "highlights": [
+      "Theme dev",
+      "Plugins",
+      "WP-CLI"
+    ],
+    "curriculum": [
+      {
+        "section": "Themes",
+        "lectures": 8,
+        "duration": "3h"
+      },
+      {
+        "section": "Plugins",
+        "lectures": 8,
+        "duration": "3h"
+      }
+    ]
+  },
+  {
+    "id": "course-032",
+    "title": "Cloud Security Essentials",
+    "slug": "cloud-security-essentials",
+    "category": "Security",
+    "level": "Intermediate",
+    "rating": 4.7,
+    "reviews": 1100,
+    "students": 4900,
+    "price": 28400,
+    "originalPrice": 42600,
+    "image": "course-cloud-security.jpg",
+    "instructor": "Rajesh Naidu",
+    "instructorId": "instructor-14",
+    "duration": "22 hours",
+    "lectures": 56,
+    "description": "Protect cloud workloads, identity, and data using security best practices and monitoring.",
+    "highlights": [
+      "IAM",
+      "Encryption",
+      "Threat detection"
+    ],
+    "curriculum": [
+      {
+        "section": "Identity",
+        "lectures": 8,
+        "duration": "3h"
+      },
+      {
+        "section": "Monitoring",
+        "lectures": 8,
+        "duration": "3h"
+      }
+    ]
+  },
+  {
+    "id": "course-033",
+    "title": "Scripting with Bash & PowerShell",
+    "slug": "scripting-bash-powershell",
+    "category": "DevOps",
+    "level": "Beginner",
+    "rating": 4.6,
+    "reviews": 780,
+    "students": 3200,
+    "price": 7050,
+    "originalPrice": 10575,
+    "image": "course-bash-powershell.jpg",
+    "instructor": "Moulali Shaik",
+    "instructorId": "instructor-4",
+    "duration": "12 hours",
+    "lectures": 28,
+    "description": "Automate routine tasks on Linux and Windows using shell scripting and PowerShell.",
+    "highlights": [
+      "Bash",
+      "PowerShell",
+      "Automation"
+    ],
+    "curriculum": [
+      {
+        "section": "Bash",
+        "lectures": 8,
+        "duration": "3h"
+      },
+      {
+        "section": "PowerShell",
+        "lectures": 8,
+        "duration": "3h"
+      }
+    ]
+  },
+  {
+    "id": "course-034",
+    "title": "No-code App Building with Airtable & Zapier",
+    "slug": "nocode-airtable-zapier",
+    "category": "Business",
+    "level": "Beginner",
+    "rating": 4.5,
+    "reviews": 560,
+    "students": 2100,
+    "price": 4000,
+    "originalPrice": 6000,
+    "image": "course-nocode-automation.jpg",
+    "instructor": "Divya Krishnan",
+    "instructorId": "instructor-6",
+    "duration": "8 hours",
+    "lectures": 20,
+    "description": "Build lightweight automations and apps without code using Airtable, Zapier and integrations.",
+    "highlights": [
+      "Airtable",
+      "Zapier",
+      "Automations"
+    ],
+    "curriculum": [
+      {
+        "section": "Airtable",
+        "lectures": 6,
+        "duration": "2h"
+      },
+      {
+        "section": "Zapier",
+        "lectures": 6,
+        "duration": "2h"
+      }
+    ]
+  },
+  {
+    "id": "course-035",
+    "title": "Accessibility (A11y) Best Practices",
+    "slug": "accessibility-a11y",
+    "category": "Design",
+    "level": "Intermediate",
+    "rating": 4.8,
+    "reviews": 890,
+    "students": 4100,
+    "price": 10100,
+    "originalPrice": 15150,
+    "image": "course-accessibility-a11y.jpg",
+    "instructor": "Karthik Thanikonda",
+    "instructorId": "instructor-3",
+    "duration": "14 hours",
+    "lectures": 36,
+    "description": "Make web apps accessible to all users by following standards and testing techniques.",
+    "highlights": [
+      "WCAG",
+      "Screen readers",
+      "Testing"
+    ],
+    "curriculum": [
+      {
+        "section": "Standards",
+        "lectures": 6,
+        "duration": "2h"
+      },
+      {
+        "section": "Testing",
+        "lectures": 8,
+        "duration": "3h"
+      }
+    ]
+  },
+  {
+    "id": "course-036",
+    "title": "Firebase for Real-time Apps",
+    "slug": "firebase-realtime-apps",
+    "category": "Web Development",
+    "level": "Beginner",
+    "rating": 4.7,
+    "reviews": 1300,
+    "students": 5400,
+    "price": 11625,
+    "originalPrice": 17438,
+    "image": "course-firebase-realtime.jpg",
+    "instructor": "Srinivas Reddy",
+    "instructorId": "instructor-5",
+    "duration": "16 hours",
+    "lectures": 40,
+    "description": "Build real-time chat, presence and sync features using Firebase and Firestore.",
+    "highlights": [
+      "Firestore",
+      "Realtime",
+      "Auth"
+    ],
+    "curriculum": [
+      {
+        "section": "Firestore",
+        "lectures": 8,
+        "duration": "3h"
+      },
+      {
+        "section": "Realtime",
+        "lectures": 8,
+        "duration": "3h"
+      }
+    ]
+  },
+  {
+    "id": "course-037",
+    "title": "Automated Testing with Jest & Cypress",
+    "slug": "testing-jest-cypress",
+    "category": "Web Development",
+    "level": "Intermediate",
+    "rating": 4.8,
+    "reviews": 1980,
+    "students": 7200,
+    "price": 20775,
+    "originalPrice": 31163,
+    "image": "course-testing-jest-cypress.jpg",
+    "instructor": "Aditya Sharma",
+    "instructorId": "instructor-7",
+    "duration": "20 hours",
+    "lectures": 48,
+    "description": "Write unit, integration and E2E tests using Jest and Cypress to ensure reliable apps.",
+    "highlights": [
+      "Jest",
+      "Cypress",
+      "CI integration"
+    ],
+    "curriculum": [
+      {
+        "section": "Unit tests",
+        "lectures": 8,
+        "duration": "3h"
+      },
+      {
+        "section": "E2E",
+        "lectures": 10,
+        "duration": "4h"
+      }
+    ]
+  },
+  {
+    "id": "course-038",
+    "title": "Introduction to SQLAlchemy & ORMs",
+    "slug": "sqlalchemy-orms",
+    "category": "Data Science",
+    "level": "Intermediate",
+    "rating": 4.6,
+    "reviews": 640,
+    "students": 2800,
+    "price": 8575,
+    "originalPrice": 12863,
+    "image": "course-sqlalchemy-orm.jpg",
+    "instructor": "Ananya Patel",
+    "instructorId": "instructor-10",
+    "duration": "12 hours",
+    "lectures": 28,
+    "description": "Use ORMs effectively for database access, migrations and relationships in Python applications.",
+    "highlights": [
+      "ORM basics",
+      "Migrations",
+      "Relationships"
+    ],
+    "curriculum": [
+      {
+        "section": "ORM",
+        "lectures": 8,
+        "duration": "3h"
+      },
+      {
+        "section": "Migrations",
+        "lectures": 6,
+        "duration": "2h"
+      }
+    ]
+  },
+  {
+    "id": "course-040",
+    "title": "SaaS Metrics & Growth",
+    "slug": "saas-metrics-growth",
+    "category": "Business",
+    "level": "Intermediate",
+    "rating": 4.7,
+    "reviews": 940,
+    "students": 3800,
+    "price": 19250,
+    "originalPrice": 28875,
+    "image": "course-saas-metrics.jpg",
+    "instructor": "Divya Krishnan",
+    "instructorId": "instructor-6",
+    "duration": "18 hours",
+    "lectures": 44,
+    "description": "Track and optimize key SaaS metrics: MRR, churn, CAC and LTV to drive profitable growth.",
+    "highlights": [
+      "MRR",
+      "Churn",
+      "LTV/CAC"
+    ],
+    "curriculum": [
+      {
+        "section": "Metrics",
+        "lectures": 10,
+        "duration": "4h"
+      },
+      {
+        "section": "Strategies",
+        "lectures": 8,
+        "duration": "3h"
+      }
+    ]
+  },
+  {
+    "id": "course-041",
+    "title": "Intro to Kubernetes",
+    "slug": "intro-kubernetes",
+    "category": "Cloud",
+    "level": "Intermediate",
+    "rating": 4.7,
+    "reviews": 2040,
+    "students": 9400,
+    "price": 31450,
+    "originalPrice": 47175,
+    "image": "course-kubernetes-intro.jpg",
+    "instructor": "Moulali Shaik",
+    "instructorId": "instructor-4",
+    "duration": "30 hours",
+    "lectures": 80,
+    "description": "Deploy and manage containerized applications with Kubernetes and common tools.",
+    "highlights": [
+      "Pods & Services",
+      "Deployments",
+      "Helm"
+    ],
+    "curriculum": [
+      {
+        "section": "Basics",
+        "lectures": 12,
+        "duration": "5h"
+      },
+      {
+        "section": "Apps",
+        "lectures": 12,
+        "duration": "5h"
+      }
+    ]
+  },
+  {
+    "id": "course-042",
+    "title": "Career Roadmap: Become a Frontend Engineer",
+    "slug": "career-frontend-engineer",
+    "category": "Career",
+    "level": "Beginner",
+    "rating": 4.8,
+    "reviews": 3200,
+    "students": 13200,
+    "price": 19250,
+    "originalPrice": 28875,
+    "image": "course-frontend-career.jpg",
+    "instructor": "Kavitha Nair",
+    "instructorId": "instructor-13",
+    "duration": "40 hours",
+    "lectures": 100,
+    "description": "A guided roadmap with projects and interview practice to get you hired as a frontend engineer.",
+    "highlights": [
+      "Portfolio projects",
+      "Interview prep",
+      "Roadmap"
+    ],
+    "curriculum": [
+      {
+        "section": "Basics",
+        "lectures": 20,
+        "duration": "8h"
+      },
+      {
+        "section": "Projects",
+        "lectures": 24,
+        "duration": "10h"
+      }
+    ]
+  },
+  {
+    "id": "course-043",
+    "title": "React Native: Build Mobile Apps",
+    "slug": "react-native-mobile-apps",
+    "category": "Mobile",
+    "level": "Intermediate",
+    "rating": 4.7,
+    "reviews": 1640,
+    "students": 7000,
+    "price": 26875,
+    "originalPrice": 40313,
+    "image": "course-react-native.jpg",
+    "instructor": "Srinivas Reddy",
+    "instructorId": "instructor-5",
+    "duration": "28 hours",
+    "lectures": 68,
+    "description": "Use React Native to build performant cross-platform mobile apps with native modules.",
+    "highlights": [
+      "React Native basics",
+      "Native modules",
+      "Performance"
+    ],
+    "curriculum": [
+      {
+        "section": "Setup",
+        "lectures": 8,
+        "duration": "3h"
+      },
+      {
+        "section": "UI",
+        "lectures": 12,
+        "duration": "5h"
+      }
+    ]
+  },
+  {
+    "id": "course-044",
+    "title": "Data Engineering with Airflow",
+    "slug": "data-engineering-airflow",
+    "category": "Data Science",
+    "level": "Intermediate",
+    "rating": 4.7,
+    "reviews": 1100,
+    "students": 5200,
+    "price": 25350,
+    "originalPrice": 38025,
+    "image": "course-airflow-engineering.jpg",
+    "instructor": "Ananya Patel",
+    "instructorId": "instructor-10",
+    "duration": "26 hours",
+    "lectures": 64,
+    "description": "Orchestrate data pipelines using Apache Airflow and standard ETL patterns.",
+    "highlights": [
+      "DAGs",
+      "Operators",
+      "Scheduling"
+    ],
+    "curriculum": [
+      {
+        "section": "Airflow basics",
+        "lectures": 10,
+        "duration": "4h"
+      },
+      {
+        "section": "Pipelines",
+        "lectures": 10,
+        "duration": "5h"
+      }
+    ]
+  },
+  {
+    "id": "course-045",
+    "title": "Copywriting for Conversion",
+    "slug": "copywriting-conversion",
+    "category": "Marketing",
+    "level": "Beginner",
+    "rating": 4.6,
+    "reviews": 980,
+    "students": 4300,
+    "price": 8575,
+    "originalPrice": 12863,
+    "image": "course-copywriting.jpg",
+    "instructor": "Suresh Gangavarapu",
+    "instructorId": "instructor-1",
+    "duration": "14 hours",
+    "lectures": 36,
+    "description": "Write copy that converts for emails, landing pages, and ads with practical templates.",
+    "highlights": [
+      "Headlines",
+      "Landing copy",
+      "Email sequences"
+    ],
+    "curriculum": [
+      {
+        "section": "Basics",
+        "lectures": 6,
+        "duration": "2h"
+      },
+      {
+        "section": "Templates",
+        "lectures": 8,
+        "duration": "3h"
+      }
+    ]
+  },
+  {
+    "id": "course-046",
+    "title": "OpenCV for Computer Vision Projects",
+    "slug": "opencv-computer-vision",
+    "category": "Data Science",
+    "level": "Intermediate",
+    "rating": 4.7,
+    "reviews": 1250,
+    "students": 5400,
+    "price": 25350,
+    "originalPrice": 38025,
+    "image": "course-opencv-vision.jpg",
+    "instructor": "Venkatesh Iyer",
+    "instructorId": "instructor-9",
+    "duration": "24 hours",
+    "lectures": 60,
+    "description": "Implement computer vision pipelines using OpenCV for image processing and feature detection.",
+    "highlights": [
+      "Image processing",
+      "Feature detection",
+      "Projects"
+    ],
+    "curriculum": [
+      {
+        "section": "OpenCV",
+        "lectures": 12,
+        "duration": "5h"
+      },
+      {
+        "section": "Projects",
+        "lectures": 10,
+        "duration": "4h"
+      }
+    ]
+  },
+  {
+    "id": "course-047",
+    "title": "Customer Interviews & Qualitative Research",
+    "slug": "customer-interviews-research",
+    "category": "Product",
+    "level": "Beginner",
+    "rating": 4.6,
+    "reviews": 720,
+    "students": 3000,
+    "price": 7050,
+    "originalPrice": 10575,
+    "image": "course-customer-interviews.jpg",
+    "instructor": "Sneha Desai",
+    "instructorId": "instructor-11",
+    "duration": "10 hours",
+    "lectures": 24,
+    "description": "Run effective customer interviews and synthesize insights into product decisions.",
+    "highlights": [
+      "Interview techniques",
+      "Synthesis",
+      "Insights"
+    ],
+    "curriculum": [
+      {
+        "section": "Interviewing",
+        "lectures": 6,
+        "duration": "2h"
+      },
+      {
+        "section": "Synthesis",
+        "lectures": 6,
+        "duration": "2h"
+      }
+    ]
+  },
+  {
+    "id": "course-048",
+    "title": "Introduction to Docker & Containers",
+    "slug": "intro-docker-containers",
+    "category": "DevOps",
+    "level": "Beginner",
+    "rating": 4.7,
+    "reviews": 1800,
+    "students": 8200,
+    "price": 11625,
+    "originalPrice": 17438,
+    "image": "course-docker-containers.jpg",
+    "instructor": "Moulali Shaik",
+    "instructorId": "instructor-4",
+    "duration": "16 hours",
+    "lectures": 40,
+    "description": "Containerize applications with Docker and learn how containers fit in modern stacks.",
+    "highlights": [
+      "Dockerfiles",
+      "Compose",
+      "Registries"
+    ],
+    "curriculum": [
+      {
+        "section": "Basics",
+        "lectures": 8,
+        "duration": "3h"
+      },
+      {
+        "section": "Compose",
+        "lectures": 6,
+        "duration": "2h"
+      }
+    ]
+  },
+  {
+    "id": "course-049",
+    "title": "Advanced Excel for Analysts",
+    "slug": "advanced-excel-analysts",
+    "category": "Data Science",
+    "level": "Intermediate",
+    "rating": 4.6,
+    "reviews": 1100,
+    "students": 4700,
+    "price": 4000,
+    "originalPrice": 6000,
+    "image": "course-advanced-excel.jpg",
+    "instructor": "Ananya Patel",
+    "instructorId": "instructor-10",
+    "duration": "12 hours",
+    "lectures": 32,
+    "description": "Excel power user techniques: pivot tables, advanced formulas and automation for analysts.",
+    "highlights": [
+      "Pivot tables",
+      "Advanced formulas",
+      "Macros"
+    ],
+    "curriculum": [
+      {
+        "section": "Advanced",
+        "lectures": 10,
+        "duration": "4h"
+      },
+      {
+        "section": "Macros",
+        "lectures": 6,
+        "duration": "2h"
+      }
+    ]
+  },
+  {
+    "id": "course-050",
+    "title": "Influencer Marketing & Content Creation",
+    "slug": "influencer-marketing-content",
+    "category": "Marketing",
+    "level": "Beginner",
+    "rating": 4.5,
+    "reviews": 980,
+    "students": 4200,
+    "price": 8575,
+    "originalPrice": 12863,
+    "image": "course-influencer-marketing.jpg",
+    "instructor": "Suresh Gangavarapu",
+    "instructorId": "instructor-1",
+    "duration": "14 hours",
+    "lectures": 36,
+    "description": "Create viral content and run influencer campaigns for product launches and engagement.",
+    "highlights": [
+      "Content strategy",
+      "Influencer outreach",
+      "Campaigns"
+    ],
+    "curriculum": [
+      {
+        "section": "Strategy",
+        "lectures": 6,
+        "duration": "2h"
+      },
+      {
+        "section": "Execution",
+        "lectures": 8,
+        "duration": "3h"
+      }
+    ]
+  },
+  {
+    "id": "course-051",
+    "title": "Practical Python Automation",
+    "slug": "practical-python-automation",
+    "category": "Scripting",
+    "level": "Beginner",
+    "rating": 4.7,
+    "reviews": 860,
+    "students": 3800,
+    "price": 7050,
+    "originalPrice": 10575,
+    "image": "course-python-automation.jpg",
+    "instructor": "Ananya Patel",
+    "instructorId": "instructor-10",
+    "duration": "12 hours",
+    "lectures": 28,
+    "description": "Automate routine tasks with Python scripts, file handling and web scraping.",
+    "highlights": [
+      "Web scraping",
+      "Automation",
+      "Scheduling"
+    ],
+    "curriculum": [
+      {
+        "section": "Basics",
+        "lectures": 8,
+        "duration": "3h"
+      },
+      {
+        "section": "Projects",
+        "lectures": 6,
+        "duration": "2h"
+      }
+    ]
+  },
+  {
+    "id": "course-052",
+    "title": "React Hooks Deep Dive",
+    "slug": "react-hooks-deep-dive",
+    "category": "Web Development",
+    "level": "Intermediate",
+    "rating": 4.8,
+    "reviews": 1420,
+    "students": 6200,
+    "price": 19250,
+    "originalPrice": 28875,
+    "image": "course-react-hooks.jpg",
+    "instructor": "Suresh Gangavarapu",
+    "instructorId": "instructor-1",
+    "duration": "18 hours",
+    "lectures": 44,
+    "description": "Master React hooks, custom hooks, and advanced patterns for modern apps.",
+    "highlights": [
+      "useEffect",
+      "Custom hooks",
+      "Performance"
+    ],
+    "curriculum": [
+      {
+        "section": "Hooks",
+        "lectures": 10,
+        "duration": "4h"
+      },
+      {
+        "section": "Patterns",
+        "lectures": 8,
+        "duration": "3h"
+      }
+    ]
+  },
+  {
+    "id": "course-053",
+    "title": "Advanced CSS Layouts",
+    "slug": "advanced-css-layouts",
+    "category": "Design",
+    "level": "Intermediate",
+    "rating": 4.6,
+    "reviews": 640,
+    "students": 3000,
+    "price": 8575,
+    "originalPrice": 12863,
+    "image": "course-css-layouts.jpg",
+    "instructor": "Aditya Sharma",
+    "instructorId": "instructor-7",
+    "duration": "14 hours",
+    "lectures": 36,
+    "description": "Grid, Flexbox and modern layout techniques to build responsive interfaces.",
+    "highlights": [
+      "CSS Grid",
+      "Flexbox",
+      "Responsive design"
+    ],
+    "curriculum": [
+      {
+        "section": "Grid",
+        "lectures": 8,
+        "duration": "3h"
+      },
+      {
+        "section": "Flexbox",
+        "lectures": 6,
+        "duration": "2h"
+      }
+    ]
+  },
+  {
+    "id": "course-054",
+    "title": "Apache Kafka Fundamentals",
+    "slug": "apache-kafka-fundamentals",
+    "category": "Data Engineering",
+    "level": "Intermediate",
+    "rating": 4.7,
+    "reviews": 720,
+    "students": 3400,
+    "price": 26875,
+    "originalPrice": 40313,
+    "image": "course-kafka.jpg",
+    "instructor": "Ananya Patel",
+    "instructorId": "instructor-10",
+    "duration": "20 hours",
+    "lectures": 48,
+    "description": "Stream processing and message-driven architectures using Apache Kafka.",
+    "highlights": [
+      "Producers & Consumers",
+      "Topics",
+      "Stream processing"
+    ],
+    "curriculum": [
+      {
+        "section": "Basics",
+        "lectures": 10,
+        "duration": "4h"
+      },
+      {
+        "section": "Streams",
+        "lectures": 8,
+        "duration": "3h"
+      }
+    ]
+  },
+  {
+    "id": "course-055",
+    "title": "Email Marketing for Small Businesses",
+    "slug": "email-marketing-small-business",
+    "category": "Marketing",
+    "level": "Beginner",
+    "rating": 4.5,
+    "reviews": 520,
+    "students": 2200,
+    "price": 4000,
+    "originalPrice": 6000,
+    "image": "course-email-marketing.jpg",
+    "instructor": "Suresh Gangavarapu",
+    "instructorId": "instructor-1",
+    "duration": "8 hours",
+    "lectures": 20,
+    "description": "Create email campaigns that convert and build automated sequences for customers.",
+    "highlights": [
+      "Sequences",
+      "Segmentation",
+      "Analytics"
+    ],
+    "curriculum": [
+      {
+        "section": "Basics",
+        "lectures": 6,
+        "duration": "2h"
+      },
+      {
+        "section": "Automation",
+        "lectures": 6,
+        "duration": "2h"
+      }
+    ]
+  },
+  {
+    "id": "course-056",
+    "title": "Cloud Cost Optimization",
+    "slug": "cloud-cost-optimization",
+    "category": "Cloud",
+    "level": "Intermediate",
+    "rating": 4.6,
+    "reviews": 430,
+    "students": 2100,
+    "price": 16200,
+    "originalPrice": 24300,
+    "image": "course-cloud-optimization.jpg",
+    "instructor": "Ramesh Kumar",
+    "instructorId": "instructor-12",
+    "duration": "12 hours",
+    "lectures": 28,
+    "description": "Reduce cloud bills with architectural patterns, right-sizing and monitoring tools.",
+    "highlights": [
+      "Cost analysis",
+      "Right-sizing",
+      "Automation"
+    ],
+    "curriculum": [
+      {
+        "section": "Analysis",
+        "lectures": 6,
+        "duration": "2h"
+      },
+      {
+        "section": "Actions",
+        "lectures": 6,
+        "duration": "2h"
+      }
+    ]
+  },
+  {
+    "id": "course-057",
+    "title": "Angular for Enterprise Apps",
+    "slug": "angular-enterprise-apps",
+    "category": "Web Development",
+    "level": "Intermediate",
+    "rating": 4.6,
+    "reviews": 810,
+    "students": 3600,
+    "price": 22300,
+    "originalPrice": 33450,
+    "image": "course-angular.jpg",
+    "instructor": "Kavitha Nair",
+    "instructorId": "instructor-13",
+    "duration": "26 hours",
+    "lectures": 64,
+    "description": "Build scalable enterprise apps with Angular, state management and testing.",
+    "highlights": [
+      "Modules",
+      "NgRx",
+      "Testing"
+    ],
+    "curriculum": [
+      {
+        "section": "Core",
+        "lectures": 12,
+        "duration": "5h"
+      },
+      {
+        "section": "State",
+        "lectures": 8,
+        "duration": "3h"
+      }
+    ]
+  },
+  {
+    "id": "course-058",
+    "title": "Funnel Optimization for eCommerce",
+    "slug": "funnel-optimization-ecommerce",
+    "category": "Marketing",
+    "level": "Intermediate",
+    "rating": 4.7,
+    "reviews": 920,
+    "students": 4100,
+    "price": 13150,
+    "originalPrice": 19725,
+    "image": "course-ecommerce-funnel.jpg",
+    "instructor": "Suresh Gangavarapu",
+    "instructorId": "instructor-1",
+    "duration": "16 hours",
+    "lectures": 40,
+    "description": "Increase conversions by optimizing checkout flows, UX and analytics for e-commerce.",
+    "highlights": [
+      "Checkout UX",
+      "A/B testing",
+      "Analytics"
+    ],
+    "curriculum": [
+      {
+        "section": "Audit",
+        "lectures": 8,
+        "duration": "3h"
+      },
+      {
+        "section": "Improve",
+        "lectures": 8,
+        "duration": "3h"
+      }
+    ]
+  },
+  {
+    "id": "course-059",
+    "title": "Intro to TypeScript",
+    "slug": "intro-typescript",
+    "category": "Web Development",
+    "level": "Beginner",
+    "rating": 4.8,
+    "reviews": 1840,
+    "students": 7600,
+    "price": 10100,
+    "originalPrice": 15150,
+    "image": "course-typescript.jpg",
+    "instructor": "Suresh Gangavarapu",
+    "instructorId": "instructor-1",
+    "duration": "14 hours",
+    "lectures": 36,
+    "description": "Type safety and modern patterns with TypeScript for maintainable applications.",
+    "highlights": [
+      "Types",
+      "Generics",
+      "Tooling"
+    ],
+    "curriculum": [
+      {
+        "section": "Basics",
+        "lectures": 8,
+        "duration": "3h"
+      },
+      {
+        "section": "Advanced",
+        "lectures": 8,
+        "duration": "3h"
+      }
+    ]
+  },
+  {
+    "id": "course-060",
+    "title": "Building APIs with Flask",
+    "slug": "building-apis-flask",
+    "category": "Web Development",
+    "level": "Beginner",
+    "rating": 4.6,
+    "reviews": 560,
+    "students": 2400,
+    "price": 7050,
+    "originalPrice": 10575,
+    "image": "course-flask-api.jpg",
+    "instructor": "Priya Menon",
+    "instructorId": "instructor-8",
+    "duration": "12 hours",
+    "lectures": 30,
+    "description": "Quickly build REST APIs using Flask and deploy simple backend services.",
+    "highlights": [
+      "Flask basics",
+      "Routing",
+      "Deployment"
+    ],
+    "curriculum": [
+      {
+        "section": "Flask",
+        "lectures": 8,
+        "duration": "3h"
+      },
+      {
+        "section": "Deploy",
+        "lectures": 6,
+        "duration": "2h"
+      }
+    ]
+  },
+  {
+    "id": "course-061",
+    "title": "Preparing Technical Portfolios",
+    "slug": "preparing-technical-portfolios",
+    "category": "Career",
+    "level": "Beginner",
+    "rating": 4.7,
+    "reviews": 720,
+    "students": 3300,
+    "price": 4000,
+    "originalPrice": 6000,
+    "image": "course-portfolio.jpg",
+    "instructor": "Kavitha Nair",
+    "instructorId": "instructor-13",
+    "duration": "10 hours",
+    "lectures": 24,
+    "description": "Build a portfolio that showcases impact and gets you noticed by recruiters.",
+    "highlights": [
+      "Projects",
+      "Writeups",
+      "Presentation"
+    ],
+    "curriculum": [
+      {
+        "section": "Selection",
+        "lectures": 6,
+        "duration": "2h"
+      },
+      {
+        "section": "Story",
+        "lectures": 6,
+        "duration": "2h"
+      }
+    ]
+  },
+  {
+    "id": "course-062",
+    "title": "Practical SQL Performance Tuning",
+    "slug": "sql-performance-tuning",
+    "category": "Data Science",
+    "level": "Advanced",
+    "rating": 4.7,
+    "reviews": 840,
+    "students": 3600,
+    "price": 20775,
+    "originalPrice": 31163,
+    "image": "course-sql-tuning.jpg",
+    "instructor": "Ananya Patel",
+    "instructorId": "instructor-10",
+    "duration": "18 hours",
+    "lectures": 44,
+    "description": "Indexing, query plans and optimization techniques to speed up database queries.",
+    "highlights": [
+      "Indexes",
+      "Explain plans",
+      "Optimization"
+    ],
+    "curriculum": [
+      {
+        "section": "Indexing",
+        "lectures": 8,
+        "duration": "3h"
+      },
+      {
+        "section": "Plans",
+        "lectures": 8,
+        "duration": "3h"
+      }
+    ]
+  },
+  {
+    "id": "course-063",
+    "title": "Introduction to Redis",
+    "slug": "intro-redis",
+    "category": "Data Engineering",
+    "level": "Beginner",
+    "rating": 4.6,
+    "reviews": 620,
+    "students": 2700,
+    "price": 7050,
+    "originalPrice": 10575,
+    "image": "course-redis.jpg",
+    "instructor": "Ananya Patel",
+    "instructorId": "instructor-10",
+    "duration": "10 hours",
+    "lectures": 24,
+    "description": "Use Redis for caching, pub/sub and simple data structures to speed up applications.",
+    "highlights": [
+      "Caching",
+      "Data structures",
+      "Pub/Sub"
+    ],
+    "curriculum": [
+      {
+        "section": "Basics",
+        "lectures": 6,
+        "duration": "2h"
+      },
+      {
+        "section": "Use cases",
+        "lectures": 6,
+        "duration": "2h"
+      }
+    ]
+  },
+  {
+    "id": "course-064",
+    "title": "Design Thinking Workshops",
+    "slug": "design-thinking-workshops",
+    "category": "Product",
+    "level": "Beginner",
+    "rating": 4.6,
+    "reviews": 540,
+    "students": 2300,
+    "price": 7050,
+    "originalPrice": 10575,
+    "image": "course-design-thinking.jpg",
+    "instructor": "Sneha Desai",
+    "instructorId": "instructor-11",
+    "duration": "12 hours",
+    "lectures": 28,
+    "description": "Hands-on workshops to apply design thinking for product discovery and ideation.",
+    "highlights": [
+      "Ideation",
+      "Prototyping",
+      "Testing"
+    ],
+    "curriculum": [
+      {
+        "section": "Workshops",
+        "lectures": 6,
+        "duration": "2h"
+      },
+      {
+        "section": "Synthesis",
+        "lectures": 6,
+        "duration": "2h"
+      }
+    ]
+  },
+  {
+    "id": "course-065",
+    "title": "Golang for Backend Services",
+    "slug": "golang-backend-services",
+    "category": "Web Development",
+    "level": "Advanced",
+    "rating": 4.7,
+    "reviews": 780,
+    "students": 3400,
+    "price": 31450,
+    "originalPrice": 47175,
+    "image": "course-golang-backend.jpg",
+    "instructor": "Ramesh Kumar",
+    "instructorId": "instructor-12",
+    "duration": "28 hours",
+    "lectures": 72,
+    "description": "Build efficient backend services in Go with concurrency, testing and deployment.",
+    "highlights": [
+      "Go routines",
+      "Networking",
+      "Performance"
+    ],
+    "curriculum": [
+      {
+        "section": "Concurrency",
+        "lectures": 10,
+        "duration": "4h"
+      },
+      {
+        "section": "Services",
+        "lectures": 10,
+        "duration": "4h"
+      }
+    ]
+  },
+  {
+    "id": "course-066",
+    "title": "AI for Business Leaders",
+    "slug": "ai-business-leaders",
+    "category": "Business",
+    "level": "Beginner",
+    "rating": 4.6,
+    "reviews": 420,
+    "students": 1900,
+    "price": 11625,
+    "originalPrice": 17438,
+    "image": "course-ai-business.jpg",
+    "instructor": "Gutlapalli Ramarao",
+    "instructorId": "instructor-2",
+    "duration": "8 hours",
+    "lectures": 20,
+    "description": "High-level AI concepts, opportunities and risks for product and business decisions.",
+    "highlights": [
+      "Strategy",
+      "Use cases",
+      "Risk"
+    ],
+    "curriculum": [
+      {
+        "section": "Intro",
+        "lectures": 6,
+        "duration": "2h"
+      },
+      {
+        "section": "Use cases",
+        "lectures": 6,
+        "duration": "2h"
+      }
+    ]
+  },
+  {
+    "id": "course-067",
+    "title": "Product Analytics with Mixpanel",
+    "slug": "product-analytics-mixpanel",
+    "category": "Product",
+    "level": "Intermediate",
+    "rating": 4.6,
+    "reviews": 480,
+    "students": 2100,
+    "price": 13150,
+    "originalPrice": 19725,
+    "image": "course-mixpanel-analytics.jpg",
+    "instructor": "Divya Krishnan",
+    "instructorId": "instructor-6",
+    "duration": "14 hours",
+    "lectures": 34,
+    "description": "Use Mixpanel to track product metrics and run experiments to improve engagement.",
+    "highlights": [
+      "Events",
+      "Funnels",
+      "Cohorts"
+    ],
+    "curriculum": [
+      {
+        "section": "Setup",
+        "lectures": 6,
+        "duration": "2h"
+      },
+      {
+        "section": "Analysis",
+        "lectures": 8,
+        "duration": "3h"
+      }
+    ]
+  },
+  {
+    "id": "course-068",
+    "title": "Mobile App Monetization Strategies",
+    "slug": "mobile-app-monetization",
+    "category": "Business",
+    "level": "Intermediate",
+    "rating": 4.5,
+    "reviews": 360,
+    "students": 1500,
+    "price": 7050,
+    "originalPrice": 10575,
+    "image": "course-mobile-monetization.jpg",
+    "instructor": "Srinivas Reddy",
+    "instructorId": "instructor-5",
+    "duration": "10 hours",
+    "lectures": 24,
+    "description": "Explore revenue models, ads, subscriptions and in-app purchases for mobile apps.",
+    "highlights": [
+      "Ads",
+      "Subscriptions",
+      "IAP"
+    ],
+    "curriculum": [
+      {
+        "section": "Models",
+        "lectures": 6,
+        "duration": "2h"
+      },
+      {
+        "section": "Optimization",
+        "lectures": 6,
+        "duration": "2h"
+      }
+    ]
+  },
+  {
+    "id": "course-069",
+    "title": "Server Monitoring with Prometheus & Grafana",
+    "slug": "prometheus-grafana-monitoring",
+    "category": "DevOps",
+    "level": "Intermediate",
+    "rating": 4.7,
+    "reviews": 680,
+    "students": 2900,
+    "price": 19250,
+    "originalPrice": 28875,
+    "image": "course-prometheus-grafana.jpg",
+    "instructor": "Moulali Shaik",
+    "instructorId": "instructor-4",
+    "duration": "16 hours",
+    "lectures": 40,
+    "description": "Set up metrics, alerting and dashboards using Prometheus and Grafana.",
+    "highlights": [
+      "Metrics",
+      "Dashboards",
+      "Alerting"
+    ],
+    "curriculum": [
+      {
+        "section": "Prometheus",
+        "lectures": 8,
+        "duration": "3h"
+      },
+      {
+        "section": "Grafana",
+        "lectures": 8,
+        "duration": "3h"
+      }
+    ]
+  },
+  {
+    "id": "course-070",
+    "title": "Localization & Internationalization (i18n)",
+    "slug": "localization-i18n",
+    "category": "Design",
+    "level": "Beginner",
+    "rating": 4.6,
+    "reviews": 420,
+    "students": 1900,
+    "price": 4000,
+    "originalPrice": 6000,
+    "image": "course-localization-i18n.jpg",
+    "instructor": "Ananya Mehta",
+    "instructorId": "instructor-6",
+    "duration": "8 hours",
+    "lectures": 20,
+    "description": "Prepare products for multiple languages and regions with best practices and tooling.",
+    "highlights": [
+      "i18n",
+      "L10n",
+      "Formatting"
+    ],
+    "curriculum": [
+      {
+        "section": "Basics",
+        "lectures": 6,
+        "duration": "2h"
+      },
+      {
+        "section": "Tools",
+        "lectures": 6,
+        "duration": "2h"
+      }
+    ]
+  },
+  {
+    "id": "course-071",
+    "title": "Data Analytics with AI & Machine Learning",
+    "slug": "data-analytics-ai-ml",
+    "category": "Data Science",
+    "level": "Advanced",
+    "rating": 4.9,
+    "reviews": 2840,
+    "students": 12500,
+    "price": 65000,
+    "originalPrice": 85000,
+    "image": "course-ai-analytics.jpg",
+    "instructor": "Dr. Arjun Rao",
+    "instructorId": "instructor-9",
+    "duration": "60 hours",
+    "lectures": 180,
+    "description": "Master advanced data analytics using AI/ML techniques, predictive modeling, and automated insights generation for enterprise-level decision making.",
+    "highlights": [
+      "Predictive Analytics",
+      "AutoML Pipelines",
+      "Real-time Analytics",
+      "AI-driven Insights",
+      "Enterprise Deployment"
+    ],
+    "curriculum": [
+      {
+        "section": "Advanced Analytics Foundations",
+        "lectures": 25,
+        "duration": "10h"
+      },
+      {
+        "section": "Machine Learning for Analytics",
+        "lectures": 35,
+        "duration": "15h"
+      },
+      {
+        "section": "AI-Powered Insights",
+        "lectures": 30,
+        "duration": "12h"
+      },
+      {
+        "section": "Enterprise Implementation",
+        "lectures": 25,
+        "duration": "10h"
+      }
+    ]
+  },
+  {
+    "id": "course-072",
+    "title": "Ethical Hacking & Penetration Testing",
+    "slug": "ethical-hacking-pentesting",
+    "category": "Cybersecurity",
+    "level": "Advanced",
+    "rating": 4.8,
+    "reviews": 1950,
+    "students": 8200,
+    "price": 75000,
+    "originalPrice": 95000,
+    "image": "course-ethical-hacking.jpg",
+    "instructor": "Rajesh Naidu",
+    "instructorId": "instructor-14",
+    "duration": "80 hours",
+    "lectures": 220,
+    "description": "Comprehensive ethical hacking course covering penetration testing methodologies, vulnerability assessment, and advanced security testing techniques.",
+    "highlights": [
+      "Penetration Testing",
+      "Vulnerability Assessment",
+      "Network Security",
+      "Web Application Testing",
+      "Reporting & Documentation"
+    ],
+    "curriculum": [
+      {
+        "section": "Ethical Hacking Fundamentals",
+        "lectures": 30,
+        "duration": "12h"
+      },
+      {
+        "section": "Network Penetration Testing",
+        "lectures": 45,
+        "duration": "18h"
+      },
+      {
+        "section": "Web Application Security",
+        "lectures": 40,
+        "duration": "16h"
+      },
+      {
+        "section": "Advanced Exploitation",
+        "lectures": 35,
+        "duration": "14h"
+      }
+    ]
+  },
+  {
+    "id": "course-073",
+    "title": "Advanced Cybersecurity & Threat Intelligence",
+    "slug": "advanced-cybersecurity-threat-intel",
+    "category": "Cybersecurity",
+    "level": "Advanced",
+    "rating": 4.8,
+    "reviews": 1640,
+    "students": 7100,
+    "price": 68000,
+    "originalPrice": 88000,
+    "image": "course-cybersecurity.jpg",
+    "instructor": "Rajesh Naidu",
+    "instructorId": "instructor-14",
+    "duration": "70 hours",
+    "lectures": 200,
+    "description": "Advanced cybersecurity strategies, threat hunting, incident response, and building enterprise-grade security operations centers (SOC).",
+    "highlights": [
+      "Threat Intelligence",
+      "SOC Operations",
+      "Incident Response",
+      "Malware Analysis",
+      "Security Automation"
+    ],
+    "curriculum": [
+      {
+        "section": "Advanced Threat Landscape",
+        "lectures": 25,
+        "duration": "10h"
+      },
+      {
+        "section": "SOC & Threat Hunting",
+        "lectures": 40,
+        "duration": "16h"
+      },
+      {
+        "section": "Incident Response",
+        "lectures": 35,
+        "duration": "14h"
+      },
+      {
+        "section": "Security Automation",
+        "lectures": 30,
+        "duration": "12h"
+      }
+    ]
+  },
+  {
+    "id": "course-077",
+    "title": "Blockchain Development & Smart Contracts",
+    "slug": "blockchain-smart-contracts-advanced",
+    "category": "Blockchain",
+    "level": "Advanced",
+    "rating": 4.6,
+    "reviews": 1420,
+    "students": 6800,
+    "price": 58000,
+    "originalPrice": 78000,
+    "image": "course-blockchain.jpg",
+    "instructor": "Ramesh Kumar",
+    "instructorId": "instructor-12",
+    "duration": "65 hours",
+    "lectures": 180,
+    "description": "Advanced blockchain development, smart contract security, DeFi protocols, and building decentralized applications on multiple chains.",
+    "highlights": [
+      "Smart Contract Development",
+      "DeFi Protocols",
+      "Multi-chain Development",
+      "Security Auditing",
+      "dApp Architecture"
+    ],
+    "curriculum": [
+      {
+        "section": "Advanced Solidity",
+        "lectures": 25,
+        "duration": "10h"
+      },
+      {
+        "section": "DeFi Development",
+        "lectures": 35,
+        "duration": "14h"
+      },
+      {
+        "section": "Security & Auditing",
+        "lectures": 30,
+        "duration": "12h"
+      },
+      {
+        "section": "Multi-chain Solutions",
+        "lectures": 25,
+        "duration": "10h"
+      }
+    ]
+  },
+  {
+    "id": "course-078",
+    "title": "Quantum Computing Fundamentals",
+    "slug": "quantum-computing-fundamentals",
+    "category": "Emerging Technology",
+    "level": "Advanced",
+    "rating": 4.7,
+    "reviews": 980,
+    "students": 4200,
+    "price": 48000,
+    "originalPrice": 68000,
+    "image": "course-quantum.jpg",
+    "instructor": "Dr. Arjun Rao",
+    "instructorId": "instructor-9",
+    "duration": "50 hours",
+    "lectures": 140,
+    "description": "Introduction to quantum computing principles, quantum algorithms, and practical applications using IBM Qiskit and quantum simulators.",
+    "highlights": [
+      "Quantum Mechanics Basics",
+      "Quantum Algorithms",
+      "Qiskit Programming",
+      "Quantum Cryptography",
+      "Future Applications"
+    ],
+    "curriculum": [
+      {
+        "section": "Quantum Theory",
+        "lectures": 20,
+        "duration": "8h"
+      },
+      {
+        "section": "Quantum Programming",
+        "lectures": 30,
+        "duration": "12h"
+      },
+      {
+        "section": "Quantum Algorithms",
+        "lectures": 25,
+        "duration": "10h"
+      },
+      {
+        "section": "Practical Applications",
+        "lectures": 20,
+        "duration": "8h"
+      }
+    ]
+  },
+  {
+    "id": "course-079",
+    "title": "Complete AI & Machine Learning Bootcamp",
+    "slug": "complete-aiml-bootcamp",
+    "category": "Artificial Intelligence",
+    "level": "Intermediate",
+    "rating": 4.9,
+    "reviews": 4200,
+    "students": 18500,
+    "price": 55000,
+    "originalPrice": 75000,
+    "image": "course-aiml-bootcamp.jpg",
+    "instructor": "Dr. Gutlapalli Ramarao",
+    "instructorId": "instructor-2",
+    "duration": "120 hours",
+    "lectures": 300,
+    "description": "Comprehensive AI/ML bootcamp covering supervised learning, deep learning, NLP, computer vision, and real-world project implementation.",
+    "highlights": [
+      "Supervised & Unsupervised Learning",
+      "Deep Learning with TensorFlow",
+      "Natural Language Processing",
+      "Computer Vision",
+      "MLOps & Deployment"
+    ],
+    "curriculum": [
+      {
+        "section": "Machine Learning Fundamentals",
+        "lectures": 50,
+        "duration": "20h"
+      },
+      {
+        "section": "Deep Learning & Neural Networks",
+        "lectures": 60,
+        "duration": "24h"
+      },
+      {
+        "section": "NLP & Computer Vision",
+        "lectures": 70,
+        "duration": "28h"
+      },
+      {
+        "section": "MLOps & Production",
+        "lectures": 40,
+        "duration": "16h"
+      }
+    ]
+  },
+  {
+    "id": "course-080",
+    "title": "Advanced SQL & Database Management",
+    "slug": "advanced-sql-database",
+    "category": "Database",
+    "level": "Advanced",
+    "rating": 4.7,
+    "reviews": 2400,
+    "students": 11800,
+    "price": 35000,
+    "originalPrice": 48000,
+    "image": "course-advanced-sql.jpg",
+    "instructor": "Ananya Patel",
+    "instructorId": "instructor-10",
+    "duration": "65 hours",
+    "lectures": 180,
+    "description": "Master advanced SQL techniques, database optimization, stored procedures, and enterprise database management across multiple platforms.",
+    "highlights": [
+      "Advanced SQL Queries",
+      "Database Performance Tuning",
+      "Stored Procedures & Functions",
+      "Data Warehousing",
+      "Multi-Database Platforms"
+    ],
+    "curriculum": [
+      {
+        "section": "Advanced SQL Techniques",
+        "lectures": 45,
+        "duration": "18h"
+      },
+      {
+        "section": "Performance Optimization",
+        "lectures": 40,
+        "duration": "16h"
+      },
+      {
+        "section": "Database Administration",
+        "lectures": 35,
+        "duration": "14h"
+      },
+      {
+        "section": "Enterprise Solutions",
+        "lectures": 30,
+        "duration": "12h"
+      }
+    ]
+  },
+  {
+    "id": "course-081",
+    "title": "Machine Learning Engineering",
+    "slug": "machine-learning-engineering",
+    "category": "Machine Learning",
+    "level": "Advanced",
+    "rating": 4.9,
+    "reviews": 3200,
+    "students": 14500,
+    "price": 62000,
+    "originalPrice": 82000,
+    "image": "course-ml-engineering.jpg",
+    "instructor": "Dr. Arjun Rao",
+    "instructorId": "instructor-9",
+    "duration": "100 hours",
+    "lectures": 260,
+    "description": "Production-ready machine learning systems, MLOps, model deployment, monitoring, and scaling ML applications in enterprise environments.",
+    "highlights": [
+      "MLOps Pipeline Development",
+      "Model Deployment & Scaling",
+      "ML System Design",
+      "Model Monitoring & Maintenance",
+      "Enterprise ML Architecture"
+    ],
+    "curriculum": [
+      {
+        "section": "ML System Architecture",
+        "lectures": 40,
+        "duration": "16h"
+      },
+      {
+        "section": "MLOps & CI/CD",
+        "lectures": 50,
+        "duration": "20h"
+      },
+      {
+        "section": "Model Deployment",
+        "lectures": 45,
+        "duration": "18h"
+      },
+      {
+        "section": "Monitoring & Optimization",
+        "lectures": 40,
+        "duration": "16h"
+      }
+    ]
+  },
+  {
+    "id": "course-082",
+    "title": "Cybersecurity Specialist Certification",
+    "slug": "cybersecurity-specialist-cert",
+    "category": "Cybersecurity",
+    "level": "Intermediate",
+    "rating": 4.8,
+    "reviews": 2800,
+    "students": 12400,
+    "price": 48000,
+    "originalPrice": 65000,
+    "image": "course-cyber-specialist.jpg",
+    "instructor": "Rajesh Naidu",
+    "instructorId": "instructor-14",
+    "duration": "95 hours",
+    "lectures": 240,
+    "description": "Complete cybersecurity training covering network security, risk management, compliance, and hands-on security tools and techniques.",
+    "highlights": [
+      "Network Security Fundamentals",
+      "Risk Assessment & Management",
+      "Security Tools & Technologies",
+      "Compliance & Governance",
+      "Incident Response"
+    ],
+    "curriculum": [
+      {
+        "section": "Security Fundamentals",
+        "lectures": 40,
+        "duration": "16h"
+      },
+      {
+        "section": "Network & System Security",
+        "lectures": 60,
+        "duration": "24h"
+      },
+      {
+        "section": "Risk Management",
+        "lectures": 45,
+        "duration": "18h"
+      },
+      {
+        "section": "Advanced Security Operations",
+        "lectures": 50,
+        "duration": "20h"
+      }
+    ]
+  },
+  {
+    "id": "course-083",
+    "title": "Data Science with Python & R",
+    "slug": "data-science-python-r",
+    "category": "Data Science",
+    "level": "Intermediate",
+    "rating": 4.8,
+    "reviews": 3600,
+    "students": 16200,
+    "price": 42000,
+    "originalPrice": 58000,
+    "image": "course-data-science-python.jpg",
+    "instructor": "Dr. Arjun Rao",
+    "instructorId": "instructor-9",
+    "duration": "85 hours",
+    "lectures": 220,
+    "description": "Master data science using Python and R for statistical analysis, data visualization, machine learning, and big data processing.",
+    "highlights": [
+      "Python for Data Science",
+      "R Programming & Statistics",
+      "Data Visualization",
+      "Statistical Modeling",
+      "Big Data Analytics"
+    ],
+    "curriculum": [
+      {
+        "section": "Python Data Science Stack",
+        "lectures": 55,
+        "duration": "22h"
+      },
+      {
+        "section": "R Programming & Statistics",
+        "lectures": 50,
+        "duration": "20h"
+      },
+      {
+        "section": "Advanced Analytics",
+        "lectures": 45,
+        "duration": "18h"
+      },
+      {
+        "section": "Big Data & Deployment",
+        "lectures": 35,
+        "duration": "14h"
+      }
+    ]
+  }
+]

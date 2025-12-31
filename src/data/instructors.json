@@ -1,0 +1,180 @@
+[
+  {
+    "id": "instructor-1",
+    "name": "Suresh Gangavarapu",
+    "title": "Senior Web Developer & Tech Educator",
+    "avatar": "SG",
+    "rating": 4.8,
+    "students": 84620,
+    "courses": 8,
+    "bio": "Suresh is a web developer and educator with 12 years of experience. He has worked with leading Indian startups and enterprises and focuses on practical, project-driven learning.",
+    "expertise": ["Web Development", "JavaScript", "React", "Node.js", "Digital Marketing"],
+    "social": {
+      "twitter": "https://twitter.com/suresh_gangavarapu",
+      "linkedin": "https://linkedin.com/in/sureshgangavarapu",
+      "website": "https://sureshgangavarapu.dev"
+    }
+  },
+  {
+    "id": "instructor-2",
+    "name": "Gutlapalli Ramarao",
+    "title": "Data Scientist & AI Researcher",
+    "avatar": "GR",
+    "rating": 4.9,
+    "students": 76543,
+    "courses": 6,
+    "bio": "Ramarao is a data scientist with a strong background in machine learning and AI. He has led analytics teams at Indian product companies and teaches practical ML for business impact.",
+    "expertise": ["Data Science", "Machine Learning", "Python", "AI", "Data Visualization"],
+    "social": {
+      "twitter": "https://twitter.com/ramarao_gutlapalli",
+      "linkedin": "https://linkedin.com/in/ramaraogutlapalli",
+      "website": "https://ramaraogutlapalli.ai"
+    }
+  }
+  ,
+  {
+    "id": "instructor-3",
+    "name": "Karthik Thanikonda",
+    "title": "Frontend Engineer",
+    "avatar": "KT",
+    "rating": 4.7,
+    "students": 34210,
+    "courses": 4,
+    "bio": "Karthik specializes in frontend performance and accessibility. He mentors students on building production-ready web apps using modern frameworks.",
+    "expertise": ["Frontend", "React", "TypeScript", "Accessibility", "Performance"],
+    "social": {
+      "twitter": "",
+      "linkedin": "",
+      "website": ""
+    }
+  },
+  {
+    "id": "instructor-5",
+    "name": "Srinivas Reddy",
+    "title": "Mobile Developer",
+    "avatar": "SR",
+    "rating": 4.8,
+    "students": 19500,
+    "courses": 5,
+    "bio": "Srinivas builds native and cross-platform mobile apps and teaches practical app development with Kotlin and Flutter.",
+    "expertise": ["Mobile", "Kotlin", "Flutter", "Android", "iOS"],
+    "social": {
+      "twitter": "",
+      "linkedin": "",
+      "website": ""
+    }
+  },
+  {
+    "id": "instructor-6",
+    "name": "Divya Krishnan",
+    "title": "Product Manager & Designer",
+    "avatar": "DK",
+    "rating": 4.7,
+    "students": 16045,
+    "courses": 2,
+    "bio": "Divya focuses on product thinking, UX and research. She helps learners bridge design and business through practical product projects.",
+    "expertise": ["Product", "UX", "Research", "Design Thinking", "Roadmapping"],
+    "social": {
+      "twitter": "",
+      "linkedin": "",
+      "website": ""
+    }
+  }
+  ,
+  {
+    "id": "instructor-7",
+    "name": "Aditya Sharma",
+    "title": "Frontend Developer",
+    "avatar": "AS",
+    "rating": 4.6,
+    "students": 12034,
+    "courses": 3,
+    "bio": "Aditya builds performant UIs and teaches animations, accessibility and modern frontend workflows.",
+    "expertise": ["React", "Next.js", "CSS", "Accessibility"],
+    "social": {"twitter": "", "linkedin": "", "website": ""}
+  },
+  {
+    "id": "instructor-8",
+    "name": "Priya Menon",
+    "title": "Backend Developer",
+    "avatar": "PM",
+    "rating": 4.5,
+    "students": 9800,
+    "courses": 4,
+    "bio": "Priya specializes in scalable backend systems and databases for high-traffic applications.",
+    "expertise": ["Node.js", "Databases", "API Design", "Scalability"],
+    "social": {"twitter": "", "linkedin": "", "website": ""}
+  },
+  {
+    "id": "instructor-9",
+    "name": "Venkatesh Iyer",
+    "title": "Machine Learning Engineer",
+    "avatar": "VI",
+    "rating": 4.8,
+    "students": 14220,
+    "courses": 5,
+    "bio": "Venkatesh works on production ML systems and teaches model deployment and lifecycle management.",
+    "expertise": ["ML Ops", "TensorFlow", "PyTorch", "Model Deployment"],
+    "social": {"twitter": "", "linkedin": "", "website": ""}
+  },
+  {
+    "id": "instructor-10",
+    "name": "Ananya Patel",
+    "title": "Data Engineer",
+    "avatar": "AP",
+    "rating": 4.6,
+    "students": 8700,
+    "courses": 3,
+    "bio": "Ananya focuses on data pipelines, ETL and cloud data architectures used in Indian enterprises.",
+    "expertise": ["ETL", "Big Data", "Airflow", "Data Warehousing"],
+    "social": {"twitter": "", "linkedin": "", "website": ""}
+  },
+  {
+    "id": "instructor-11",
+    "name": "Sneha Desai",
+    "title": "UX Researcher",
+    "avatar": "SD",
+    "rating": 4.7,
+    "students": 7400,
+    "courses": 2,
+    "bio": "Sneha teaches user research methods and usability testing tailored for product teams.",
+    "expertise": ["User Research", "Usability", "Prototyping", "Testing"],
+    "social": {"twitter": "", "linkedin": "", "website": ""}
+  },
+  {
+    "id": "instructor-12",
+    "name": "Ramesh Kumar",
+    "title": "Cloud Architect",
+    "avatar": "RK",
+    "rating": 4.9,
+    "students": 15890,
+    "courses": 6,
+    "bio": "Ramesh architects cloud-native systems and teaches cost-optimized cloud patterns for startups.",
+    "expertise": ["AWS", "Azure", "Cloud Architecture", "Security"],
+    "social": {"twitter": "", "linkedin": "", "website": ""}
+  },
+  {
+    "id": "instructor-13",
+    "name": "Kavitha Nair",
+    "title": "Full Stack Instructor",
+    "avatar": "KN",
+    "rating": 4.8,
+    "students": 13200,
+    "courses": 5,
+    "bio": "Kavitha teaches end-to-end product development, from UI to backend and deployment.",
+    "expertise": ["Full Stack", "React", "Node.js", "DevOps"],
+    "social": {"twitter": "", "linkedin": "", "website": ""}
+  },
+  {
+    "id": "instructor-14",
+    "name": "Rajesh Naidu",
+    "title": "Cybersecurity Specialist",
+    "avatar": "RN",
+    "rating": 4.6,
+    "students": 6800,
+    "courses": 2,
+    "bio": "Rajesh focuses on secure coding, threat modeling, and defensive security practices.",
+    "expertise": ["Security", "Secure Coding", "Threat Modeling"],
+    "social": {"twitter": "", "linkedin": "", "website": ""}
+  }
+]

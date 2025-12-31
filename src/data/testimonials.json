@@ -1,0 +1,84 @@
+[
+  {
+    "id": 1,
+    "name": "Amit Patel",
+    "role": "Full Stack Developer",
+    "company": "Infratech Solutions",
+    "avatar": "AP",
+    "rating": 5,
+    "text": "This platform transformed my career. The courses are practical and project-driven. I secured a great role within three months of completing the bootcamp."
+  },
+  {
+    "id": 2,
+    "name": "Sanya Reddy",
+    "role": "Data Analyst",
+    "company": "Insight Labs",
+    "avatar": "SR",
+    "rating": 5,
+    "text": "The data science course gave me hands-on exposure to real datasets and helped me build a strong portfolio. Highly recommended for learners in India."
+  },
+  {
+    "id": 3,
+    "name": "Rohit Singh",
+    "role": "Digital Marketing Manager",
+    "company": "GrowthWorks",
+    "avatar": "RS",
+    "rating": 5,
+    "text": "The marketing strategies I learned here helped me significantly improve campaign ROI. Content is always practical and up-to-date."
+  },
+  {
+    "id": 4,
+    "name": "Ananya Mehta",
+    "role": "UI/UX Designer",
+    "company": "DesignHive",
+    "avatar": "AM",
+    "rating": 5,
+    "text": "The UI/UX course is excellent. Concepts are explained clearly and the projects helped me build an impressive portfolio."
+  }
+  ,
+  {
+    "id": 5,
+    "name": "Kavya Nair",
+    "role": "Frontend Developer",
+    "company": "PixelWorks",
+    "avatar": "KN",
+    "rating": 5,
+    "text": "Loved the hands-on approach. The small projects helped me gain confidence and land freelance work within weeks."
+  },
+  {
+    "id": 6,
+    "name": "Manish Gupta",
+    "role": "Data Engineer",
+    "company": "DataMart",
+    "avatar": "MG",
+    "rating": 5,
+    "text": "The data engineering course covered everything from ETL to data warehousing. Very practical and industry-relevant."
+  },
+  {
+    "id": 7,
+    "name": "Tanya Singh",
+    "role": "Product Designer",
+    "company": "StudioNine",
+    "avatar": "TS",
+    "rating": 5,
+    "text": "Great mentorship and clear feedback on projects. My portfolio improved drastically after the course."
+  },
+  {
+    "id": 8,
+    "name": "Arvind Rao",
+    "role": "DevOps Engineer",
+    "company": "CloudWave",
+    "avatar": "AR",
+    "rating": 5,
+    "text": "The DevOps modules are concise and practical. I was able to implement CI/CD pipelines at my startup the following month."
+  },
+  {
+    "id": 9,
+    "name": "Sakina Sheikh",
+    "role": "Digital Marketer",
+    "company": "MarketPulse",
+    "avatar": "SS",
+    "rating": 5,
+    "text": "The marketing strategies are tailored for small businesses. We saw measurable results within two months. Highly recommended!"
+  }
+]
