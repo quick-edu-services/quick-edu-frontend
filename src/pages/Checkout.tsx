@@ -60,6 +60,74 @@ const Checkout = () => {
     cvv: "",
   });
 
+  const [errors, setErrors] = useState<Record<string, string>>({});
+
+  const validateForm = () => {
+    const newErrors: Record<string, string> = {};
+
+    if (!formData.firstName.trim()) newErrors.firstName = "First name is required";
+    if (!formData.lastName.trim()) newErrors.lastName = "Last name is required";
+    if (!formData.country.trim()) newErrors.country = "Country is required";
+    if (!formData.streetAddress.trim()) newErrors.streetAddress = "Street address is required";
+    if (!formData.town.trim()) newErrors.town = "Town/City is required";
+    if (!formData.state.trim()) newErrors.state = "State is required";
+
+    if (!formData.pincode.trim()) {
+      newErrors.pincode = "PIN code is required";
+    } else if (!/^\d{6}$/.test(formData.pincode)) {
+      newErrors.pincode = "Please enter a valid 6-digit PIN code";
+    }
+
+    if (!formData.phone.trim()) {
+      newErrors.phone = "Phone number is required";
+    } else if (!/^\d{10}$/.test(formData.phone)) {
+      newErrors.phone = "Please enter a valid 10-digit phone number";
+    }
+
+    if (!formData.emailAddress.trim()) {
+      newErrors.emailAddress = "Email address is required";
+    } else if (!/\S+@\S+\.\S+/.test(formData.emailAddress)) {
+      newErrors.emailAddress = "Please enter a valid email address";
+    }
+
+    setErrors(newErrors);
+
+    if (Object.keys(newErrors).length > 0) {
+      // Scroll to the first error
+      const firstErrorField = Object.keys(newErrors)[0];
+      const element = document.getElementById(firstErrorField);
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        element.focus();
+      }
+      return false;
+    }
+
+    return true;
+  };
+
+  const handleInputChange = (field: string, value: string) => {
+    setFormData(prev => ({ ...prev, [field]: value }));
+    // Clear error when user starts typing
+    if (errors[field]) {
+      setErrors(prev => {
+        const newErrors = { ...prev };
+        delete newErrors[field];
+        return newErrors;
+      });
+    }
+  };
+
+  const handleFocus = (field: string) => {
+    if (errors[field]) {
+      setErrors(prev => {
+        const newErrors = { ...prev };
+        delete newErrors[field];
+        return newErrors;
+      });
+    }
+  };
+
   if (orderItems.length === 0) {
     navigate("/courses");
     return null;
@@ -72,6 +140,12 @@ const Checkout = () => {
 
   const handlePayment = async (e: React.FormEvent) => {
     e.preventDefault();
+
+    if (!validateForm()) {
+      toast.error("Please correctly fill in all required billing details.");
+      return;
+    }
+
     setIsProcessing(true);
 
     try {
@@ -181,29 +255,41 @@ const Checkout = () => {
 
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
               {/* Student Details & Payment Form */}
-              <div className="lg:col-span-2 space-y-6">
+              <form onSubmit={handlePayment} className="lg:col-span-2 space-y-6">
                 {/* Billing Details */}
                 <Card className="p-6">
                   <h2 className="text-2xl font-bold mb-6">Billing details</h2>
 
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
                     <div className="space-y-2">
-                      <Label htmlFor="firstName">First name *</Label>
+                      <Label htmlFor="firstName" className={errors.firstName ? "text-destructive" : ""}>
+                        First name *
+                      </Label>
                       <Input
                         id="firstName"
                         value={formData.firstName}
-                        onChange={(e) => setFormData({ ...formData, firstName: e.target.value })}
-                        required
+                        onChange={(e) => handleInputChange("firstName", e.target.value)}
+                        onFocus={() => handleFocus("firstName")}
+                        className={errors.firstName ? "border-destructive focus-visible:ring-destructive" : ""}
                       />
+                      {errors.firstName && (
+                        <p className="text-sm font-medium text-destructive mt-1">{errors.firstName}</p>
+                      )}
                     </div>
                     <div className="space-y-2">
-                      <Label htmlFor="lastName">Last name *</Label>
+                      <Label htmlFor="lastName" className={errors.lastName ? "text-destructive" : ""}>
+                        Last name *
+                      </Label>
                       <Input
                         id="lastName"
                         value={formData.lastName}
-                        onChange={(e) => setFormData({ ...formData, lastName: e.target.value })}
-                        required
+                        onChange={(e) => handleInputChange("lastName", e.target.value)}
+                        onFocus={() => handleFocus("lastName")}
+                        className={errors.lastName ? "border-destructive focus-visible:ring-destructive" : ""}
                       />
+                      {errors.lastName && (
+                        <p className="text-sm font-medium text-destructive mt-1">{errors.lastName}</p>
+                      )}
                     </div>
                   </div>
 
@@ -212,28 +298,40 @@ const Checkout = () => {
                     <Input
                       id="companyName"
                       value={formData.companyName}
-                      onChange={(e) => setFormData({ ...formData, companyName: e.target.value })}
+                      onChange={(e) => handleInputChange("companyName", e.target.value)}
                     />
                   </div>
 
                   <div className="space-y-2 mb-4">
-                    <Label htmlFor="country">Country / Region *</Label>
+                    <Label htmlFor="country" className={errors.country ? "text-destructive" : ""}>
+                      Country / Region *
+                    </Label>
                     <Input
                       id="country"
                       value={formData.country}
-                      onChange={(e) => setFormData({ ...formData, country: e.target.value })}
-                      required
+                      onChange={(e) => handleInputChange("country", e.target.value)}
+                      onFocus={() => handleFocus("country")}
+                      className={errors.country ? "border-destructive focus-visible:ring-destructive" : ""}
                     />
+                    {errors.country && (
+                      <p className="text-sm font-medium text-destructive mt-1">{errors.country}</p>
+                    )}
                   </div>
 
                   <div className="space-y-2 mb-4">
-                    <Label htmlFor="streetAddress">Street address *</Label>
+                    <Label htmlFor="streetAddress" className={errors.streetAddress ? "text-destructive" : ""}>
+                      Street address *
+                    </Label>
                     <Input
                       id="streetAddress"
                       value={formData.streetAddress}
-                      onChange={(e) => setFormData({ ...formData, streetAddress: e.target.value })}
-                      required
+                      onChange={(e) => handleInputChange("streetAddress", e.target.value)}
+                      onFocus={() => handleFocus("streetAddress")}
+                      className={errors.streetAddress ? "border-destructive focus-visible:ring-destructive" : ""}
                     />
+                    {errors.streetAddress && (
+                      <p className="text-sm font-medium text-destructive mt-1">{errors.streetAddress}</p>
+                    )}
                   </div>
 
                   <div className="space-y-2 mb-4">
@@ -241,71 +339,101 @@ const Checkout = () => {
                     <Input
                       id="apartment"
                       value={formData.apartment}
-                      onChange={(e) => setFormData({ ...formData, apartment: e.target.value })}
+                      onChange={(e) => handleInputChange("apartment", e.target.value)}
                     />
                   </div>
 
                   <div className="space-y-2 mb-4">
-                    <Label htmlFor="town">Town / City *</Label>
+                    <Label htmlFor="town" className={errors.town ? "text-destructive" : ""}>
+                      Town / City *
+                    </Label>
                     <Input
                       id="town"
                       value={formData.town}
-                      onChange={(e) => setFormData({ ...formData, town: e.target.value })}
-                      required
+                      onChange={(e) => handleInputChange("town", e.target.value)}
+                      onFocus={() => handleFocus("town")}
+                      className={errors.town ? "border-destructive focus-visible:ring-destructive" : ""}
                     />
+                    {errors.town && (
+                      <p className="text-sm font-medium text-destructive mt-1">{errors.town}</p>
+                    )}
                   </div>
 
                   <div className="space-y-2 mb-4">
-                    <Label htmlFor="state">State *</Label>
+                    <Label htmlFor="state" className={errors.state ? "text-destructive" : ""}>
+                      State *
+                    </Label>
                     <Input
                       id="state"
                       value={formData.state}
-                      onChange={(e) => setFormData({ ...formData, state: e.target.value })}
-                      required
+                      onChange={(e) => handleInputChange("state", e.target.value)}
+                      onFocus={() => handleFocus("state")}
+                      className={errors.state ? "border-destructive focus-visible:ring-destructive" : ""}
                     />
+                    {errors.state && (
+                      <p className="text-sm font-medium text-destructive mt-1">{errors.state}</p>
+                    )}
                   </div>
 
                   <div className="space-y-2 mb-4">
-                    <Label htmlFor="pincode">PIN Code *</Label>
+                    <Label htmlFor="pincode" className={errors.pincode ? "text-destructive" : ""}>
+                      PIN Code *
+                    </Label>
                     <Input
                       id="pincode"
                       value={formData.pincode}
-                      onChange={(e) => setFormData({ ...formData, pincode: e.target.value })}
-                      required
+                      onChange={(e) => handleInputChange("pincode", e.target.value)}
+                      onFocus={() => handleFocus("pincode")}
+                      className={errors.pincode ? "border-destructive focus-visible:ring-destructive" : ""}
                     />
+                    {errors.pincode && (
+                      <p className="text-sm font-medium text-destructive mt-1">{errors.pincode}</p>
+                    )}
                   </div>
 
                   <div className="space-y-2 mb-4">
-                    <Label htmlFor="phone">Phone *</Label>
+                    <Label htmlFor="phone" className={errors.phone ? "text-destructive" : ""}>
+                      Phone *
+                    </Label>
                     <Input
                       id="phone"
                       type="tel"
                       value={formData.phone}
-                      onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-                      required
+                      onChange={(e) => handleInputChange("phone", e.target.value)}
+                      onFocus={() => handleFocus("phone")}
+                      className={errors.phone ? "border-destructive focus-visible:ring-destructive" : ""}
                     />
+                    {errors.phone && (
+                      <p className="text-sm font-medium text-destructive mt-1">{errors.phone}</p>
+                    )}
                   </div>
 
                   <div className="space-y-2">
-                    <Label htmlFor="emailAddress">Email address *</Label>
+                    <Label htmlFor="emailAddress" className={errors.emailAddress ? "text-destructive" : ""}>
+                      Email address *
+                    </Label>
                     <Input
                       id="emailAddress"
                       type="email"
                       value={formData.emailAddress}
-                      onChange={(e) => setFormData({ ...formData, emailAddress: e.target.value })}
-                      required
+                      onChange={(e) => handleInputChange("emailAddress", e.target.value)}
+                      onFocus={() => handleFocus("emailAddress")}
+                      className={errors.emailAddress ? "border-destructive focus-visible:ring-destructive" : ""}
                     />
+                    {errors.emailAddress && (
+                      <p className="text-sm font-medium text-destructive mt-1">{errors.emailAddress}</p>
+                    )}
                   </div>
                 </Card>
 
-                {/* Payment Button */}
+                {/* Payment Button Card */}
                 <Card className="p-6">
                   <div className="flex items-center gap-2 mb-6">
                     <Lock className="w-5 h-5 text-primary" />
                     <h2 className="text-2xl font-bold">Complete Payment</h2>
                   </div>
 
-                  <form onSubmit={handlePayment} className="space-y-6">
+                  <div className="space-y-6">
                     <div className="bg-muted/50 p-4 rounded-lg border border-border">
                       <p className="text-sm text-muted-foreground flex items-center gap-2">
                         <Lock className="w-4 h-4" />
@@ -330,9 +458,9 @@ const Checkout = () => {
                         </>
                       )}
                     </Button>
-                  </form>
+                  </div>
                 </Card>
-              </div>
+              </form>
 
               {/* Order Summary */}
               <div>
