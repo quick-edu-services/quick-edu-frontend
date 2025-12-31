@@ -1,4 +1,4 @@
 export const BASE_URLS = {
-  AUTH: 'http://localhost:5000/api/auth',
-  API: 'http://localhost:5000/api'
+  AUTH: 'https://quick-edu-backend.onrender.com/api/auth',
+  API: 'https://quick-edu-backend.onrender.com/api'
 };
